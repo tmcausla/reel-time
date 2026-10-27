@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reel Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="main.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Reel Time</h1>
+        <p class="tagline">Every film has its place in time.</p>
     </header>
 
     <main>
         <section class="franchise-selectors">
-            <label for="franchise-one">First franchise</label>
-            <select id="franchise-one"></select>
-
-            <label for="franchise-two">Second franchise</label>
-            <select id="franchise-two"></select>
+            <div class="selector lane-left">
+                <label for="franchise-one">First franchise</label>
+                <select id="franchise-one"></select>
+            </div>
+            <div class="selector lane-right">
+                <label for="franchise-two">Second franchise</label>
+                <select id="franchise-two"></select>
+            </div>
         </section>
 
         <section id="timeline">
-            <!-- Movie entries will be rendered here -->
+            <!-- movie entries will be rendered here -->
         </section>
     </main>
 </body>

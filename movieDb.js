@@ -251,6 +251,114 @@ const movieDb = [
         director: "Lars Klevberg",
         releaseDate: "2019-06-21"
     },
+    {
+        title: "Alien",
+        franchise: "Alien",
+        director: "Ridley Scott",
+        releaseDate: "1979-05-25"
+    },
+    {
+        title: "Aliens",
+        franchise: "Alien",
+        director: "James Cameron",
+        releaseDate: "1986-06-18"
+    },
+    {
+        title: "Alien 3",
+        franchise: "Alien",
+        director: "David Fincher",
+        releaseDate: "1992-05-22"
+    },
+    {
+        title: "Alien Resurrection",
+        franchise: "Alien",
+        director: "Jean-Pierre Jeunet",
+        releaseDate: "1997-11-26"
+    },
+    {
+        title: "Prometheus",
+        franchise: "Alien",
+        director: "Ridley Scott",
+        releaseDate: "2012-06-08"
+    },
+    {
+        title: "Alien: Covenant",
+        franchise: "Alien",
+        director: "Ridley Scott",
+        releaseDate: "2017-05-19"
+    },
+    {
+        title: "Alien: Romulus",
+        franchise: "Alien",
+        director: "Fede Alvarez",
+        releaseDate: "2024-08-16"
+    },
+    {
+        title: "Alien vs. Predator",
+        franchise: "Alien",
+        director: "Paul W.S. Anderson",
+        releaseDate: "2004-08-13"
+    },
+    {
+        title: "Alien vs. Predator: Requiem",
+        franchise: "Alien",
+        director: "Greg & Colin Strause",
+        releaseDate: "2007-12-25"
+    },
+    {
+        title: "Alien vs. Predator",
+        franchise: "Predator",
+        director: "Paul W.S. Anderson",
+        releaseDate: "2004-08-13"
+    },
+    {
+        title: "Alien vs. Predator: Requiem",
+        franchise: "Predator",
+        director: "Greg & Colin Strause",
+        releaseDate: "2007-12-25"
+    },
+    {
+        title: "Predator",
+        franchise: "Predator",
+        director: "John McTiernan",
+        releaseDate: "1987-06-12"
+    },
+    {
+        title: "Predator 2",
+        franchise: "Predator",
+        director: "Stephen Hopkins",
+        releaseDate: "1990-11-21"
+    },
+    {
+        title: "Predators",
+        franchise: "Predator",
+        director: "Nimrod Antal",
+        releaseDate: "2010-07-09"
+    },
+    {
+        title: "The Predator",
+        franchise: "Predator",
+        director: "Shane Black",
+        releaseDate: "2018-09-14"
+    },
+    {
+        title: "Prey",
+        franchise: "Predator",
+        director: "Dan Trachtenberg",
+        releaseDate: "2022-08-05"
+    },
+    {
+        title: "Predator: Killer of Killers",
+        franchise: "Predator",
+        director: "Dan Trachtenberg",
+        releaseDate: "2025-06-06"
+    },
+    {
+        title: "Predator: Badlands",
+        franchise: "Predator",
+        director: "Dan Trachtenberg",
+        releaseDate: "2025-11-07"
+    }
 ];
 
 export default movieDb;
