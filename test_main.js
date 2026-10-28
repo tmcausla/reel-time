@@ -4,7 +4,7 @@ const franchiseOne = document.querySelector("#franchise-one");
 const franchiseTwo = document.querySelector("#franchise-two");
 const timeline = document.querySelector("#timeline");
 const franchises = [...new Set(
-    movieDb.map(movie => movie.franchise)
+    movieDb.flatMap(movie => movie.franchise)
 )];
 
 // Layout tuning (all in px)
@@ -54,19 +54,15 @@ function getTimelineItems() {
     const items = [];
 
     for (const movie of movieDb) {
-        const lane = movie.franchise === left ? "left"
-                   : movie.franchise === right ? "right"
-                   : null;
-        if (!lane) continue;
+        const belongsToLeft = movie.franchise.includes(left);
+        const belongsToRight = movie.franchise.includes(right);
 
-        const key = `${movie.title}|${movie.releaseDate}`;
-        const existing = items.find(item => item.key === key);
+        if (!belongsToLeft && !belongsToRight) continue;
 
-        if (existing) {
-            if (existing.lane !== lane) existing.lane = "both";
-            continue;
-        }
-        items.push({ ...movie, key, lane });
+        const lane = belongsToLeft && belongsToRight ? "both"
+            : belongsToLeft ? "left" : "right";
+
+        items.push({ ...movie, lane });
     }
 
     return items.sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
