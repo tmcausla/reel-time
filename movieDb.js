@@ -670,6 +670,36 @@ const movieDb = [
         franchise: ["Star Wars"],
         director: "Jon Favreau",
         releaseDate: "2026-05-22"
+    },
+    {
+        title: "John Wick",
+        franchise: ["John Wick"],
+        director: "Chad Stahelski",
+        releaseDate: "2014-10-24"
+    },
+    {
+        title: "John Wick: Chapter 2",
+        franchise: ["John Wick"],
+        director: "Chad Stahelski",
+        releaseDate: "2017-02-10"
+    },
+    {
+        title: "John Wick: Chapter 3 - Parabellum",
+        franchise: ["John Wick"],
+        director: "Chad Stahelski",
+        releaseDate: "2019-05-17"
+    },
+    {
+        title: "John Wick: Chapter 4",
+        franchise: ["John Wick"],
+        director: "Chad Stahelski",
+        releaseDate: "2023-03-24"
+    },
+    {
+        title: "From the World of John Wick: Ballerina",
+        franchise: ["John Wick"],
+        director: "Len Wiseman",
+        releaseDate: "2025-06-06"
     }
 ];
 
