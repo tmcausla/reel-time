@@ -7,7 +7,7 @@ const franchises = [...new Set(
     movieDb.flatMap(movie => movie.franchise)
 )];
 
-// Layout tuning (all in px)
+// layout tuning (all in px)
 const PX_PER_YEAR = 10;   // how much real time stretches the spacing
 const MIN_GAP = 12;       // minimum distance between consecutive releases
 const MAX_GAP = 80;       // long droughts are compressed to this
@@ -27,7 +27,7 @@ function populateDropdown(dropdown) {
 populateDropdown(franchiseOne);
 populateDropdown(franchiseTwo);
 
-// Start on two different franchises so both lanes have content
+// start on two different franchises so both lanes have content
 franchiseOne.selectedIndex = Math.min(1, franchises.length - 1);
 franchiseTwo.selectedIndex = Math.min(2, franchises.length - 1);
 
@@ -38,7 +38,7 @@ function el(tag, className, text) {
     return node;
 }
 
-// Parse "YYYY-MM-DD" by hand so time zones can't shift the day
+// parsed "YYYY-MM-DD" by hand so time zones can't shift the day
 function formatDate(iso) {
     const [y, m, d] = iso.split("-").map(Number);
     return new Date(y, m - 1, d).toLocaleDateString(undefined, {
@@ -46,8 +46,6 @@ function formatDate(iso) {
     });
 }
 
-// Returns movies tagged with a lane: "left", "right", or "both" when the
-// same title/date appears in both selected franchises (e.g. Freddy vs Jason).
 function getTimelineItems() {
     const left = franchiseOne.value;
     const right = franchiseTwo.value;
@@ -104,8 +102,7 @@ function renderMovies() {
     layout();
 }
 
-// Positions every card. Cards are absolutely placed so the two lanes can
-// interleave by date while never overlapping within a lane.
+// cards are absolutely placed so the two lanes can interleave by date while never overlapping within a lane
 function layout() {
     const nodes = [...timeline.children].filter(node => node.dataset.kind);
     const bottom = { left: 0, right: 0 };
@@ -152,7 +149,7 @@ function layout() {
 franchiseOne.addEventListener("change", renderMovies);
 franchiseTwo.addEventListener("change", renderMovies);
 
-// Card heights depend on width and fonts, so re-measure when either changes
+// card heights depend on width and fonts, so re-measure when either changes
 let lastWidth = 0;
 new ResizeObserver(([entry]) => {
     const width = Math.round(entry.contentRect.width);

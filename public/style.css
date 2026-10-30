@@ -45,7 +45,7 @@ main {
     padding: 0 12px 48px;
 }
 
-/* Selectors sit directly above the lane they control */
+/* selectors sit directly above the lane they control */
 .franchise-selectors {
     position: sticky;
     top: 0;
@@ -90,7 +90,7 @@ main {
     outline-offset: 2px;
 }
 
-/* Timeline */
+/* timeline */
 #timeline {
     position: relative;
     margin-top: 24px;
@@ -156,7 +156,7 @@ main {
     color: var(--muted);
 }
 
-/* Dot on the spine + short tick connecting it to the card */
+/* dot on the spine + short tick connecting it to the card */
 .card::before {
     content: "";
     position: absolute;
@@ -184,7 +184,7 @@ main {
 .card.left::after   { right: calc(-1 * (var(--gutter) + 1px)); }
 .card.right::after  { left:  calc(-1 * (var(--gutter) + 1px)); }
 
-/* A film that belongs to both franchises sits on the spine itself */
+/* a film that belongs to both franchises sits on the spine itself */
 .card.cross {
     left: 50%;
     transform: translateX(-50%);

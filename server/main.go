@@ -37,6 +37,9 @@ func main() {
 	http.HandleFunc("GET /api/movies", func(w http.ResponseWriter, r *http.Request) {
 		getMovies(db, w, r)
 	})
+
+	fileServer := http.FileServer(http.Dir("../public"))
+	http.Handle("/", fileServer)
 	
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }

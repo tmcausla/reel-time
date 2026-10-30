@@ -39,7 +39,7 @@ func fetchMovies(db *sql.DB, selectedFranchises []string) ([]Movie, error) {
 		queryArgs[i] = franchise
 	}
 
-	// query for movies table data
+	// query for movies table data with 1-2 selected franchises
 	movieQuery := fmt.Sprintf(`
 		SELECT id, title, COALESCE(director, ''), release_date::text
 		FROM movies m
@@ -59,7 +59,7 @@ func fetchMovies(db *sql.DB, selectedFranchises []string) ([]Movie, error) {
 	defer rows.Close()
 
 	movies := []Movie{}
-	movieIdxs := make(map[int]int)
+	movieIdxs := make(map[int]int) // storing a map of indices helps us find the matching movie franchises later
 
 	for rows.Next() {
 		var movie Movie
@@ -75,13 +75,13 @@ func fetchMovies(db *sql.DB, selectedFranchises []string) ([]Movie, error) {
 	if err := rows.Err(); err != nil {
 		return nil, fmt.Errorf("error reading movie data: %w", err)
 	}
-	if err:= rows.Close(); err != nil {
+	if err:= rows.Close(); err != nil { // need to close before querying for matching movie franchises
 		return nil, fmt.Errorf("error closing movie data: %w", err)
 	}
 	if len(movies) == 0 {
 		fmt.Println("no matching movies found")
 		return movies, nil
-	}
+	} // movies slice is now populated with Movie structs
 
 	// build placeholders for the matching movie IDs and populate
 	idPlaceholders := make([]string, len(movies))
@@ -91,7 +91,7 @@ func fetchMovies(db *sql.DB, selectedFranchises []string) ([]Movie, error) {
 		idArgs[i] = movie.ID
 	}
 
-	// query movie_franchises table for matches
+	// query movie franchises table for matches
 	franchiseQuery := fmt.Sprintf(`
 		SELECT mf.movie_id, f.name
 		FROM movie_franchises mf
