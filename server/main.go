@@ -5,9 +5,14 @@ import (
 	"database/sql"
 	"net/http"
 	_ "github.com/jackc/pgx/v5/stdlib"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	if err := godotenv.Load(); err != nil {
+		log.Println("No .env file found; using existing environment variables")
+	}
+
 	databaseURL := os.Getenv("DATABASE_URL")
 	if databaseURL == "" {
 		log.Fatal("DATABASE_URL env variable is not set")
@@ -32,5 +37,6 @@ func main() {
 	http.HandleFunc("GET /api/movies", func(w http.ResponseWriter, r *http.Request) {
 		getMovies(db, w, r)
 	})
+	
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
