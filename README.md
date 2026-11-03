@@ -66,6 +66,7 @@ DATABASE_URL=postgres://YOUR_USERNAME:YOUR_PASSWORD@localhost:5432/reel_time?ssl
 ```
 
 Replace the username and password with your local PostgreSQL credentials. Keep this file private; do not commit database credentials.
+The Go server automatically loads this file when started from the server/ directory.
 
 ### 4. Start the application
 
@@ -86,6 +87,12 @@ The Go server serves the frontend and provides the API endpoints used to retriev
 2. Select two movie franchises from the dropdown menus.
 3. Explore their movies on the shared release timeline.
 4. Compare release dates and see crossover films associated with both franchises.
+
+### Database Design
+
+Reel Time uses a relational PostgreSQL database with a many-to-many relationship between movies and franchises. This allows a movie to belong to multiple franchises, supporting crossover films without duplicating movie records.
+
+A junction table (`movie_franchises`) connects the `movies` and `franchises` tables.
 
 ### API Endpoints
 
