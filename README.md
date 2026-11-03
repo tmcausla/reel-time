@@ -2,13 +2,16 @@
 
 **Every film has its place in time.**
 
-<p align="center">
-  <img src="assets/screenshots/reeltime-image1.png" width="800" alt="Reel Time comparing Halloween and Friday the 13th">
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/reeltime-image2.png" width="800" alt="Reel Time crossover films">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/screenshots/reeltime-image2.png" width="400" alt="Reel Time franchise comparison">
+    </td>
+    <td align="center">
+      <img src="assets/screenshots/reeltime-image1.png" width="400" alt="Reel Time crossover films">
+    </td>
+  </tr>
+</table>
 
 Reel Time is a web application for comparing movie franchises on a shared chronological release timeline. Select two franchises to see how their release histories line up, including crossover films that belong to both.
 
