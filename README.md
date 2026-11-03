@@ -3,7 +3,7 @@
 **Every film has its place in time.**
 
 <p align="center">
-  <img src="assets/screenshots/reeltime-image1.png" width="800" alt="Reel Time franchise comparison">
+  <img src="assets/screenshots/reeltime-image1.png" width="800" alt="Reel Time comparing Halloween and Friday the 13th">
 </p>
 
 <p align="center">
