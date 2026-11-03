@@ -700,6 +700,792 @@ const movieDb = [
         franchise: ["John Wick"],
         director: "Len Wiseman",
         releaseDate: "2025-06-06"
+    },
+    {
+        title: "Jurassic Park",
+        franchise: ["Jurassic Park"],
+        director: "Steven Spielberg",
+        releaseDate: "1993-06-11"
+    },
+    {
+        title: "The Lost World: Jurassic Park",
+        franchise: ["Jurassic Park"],
+        director: "Steven Spielberg",
+        releaseDate: "1997-05-23"
+    },
+    {
+        title: "Jurassic Park III",
+        franchise: ["Jurassic Park"],
+        director: "Joe Johnston",
+        releaseDate: "2001-07-18"
+    },
+    {
+        title: "Jurassic World",
+        franchise: ["Jurassic Park"],
+        director: "Colin Trevorrow",
+        releaseDate: "2015-06-12"
+    },
+    {
+        title: "Jurassic World: Fallen Kingdom",
+        franchise: ["Jurassic Park"],
+        director: "J.A. Bayona",
+        releaseDate: "2018-06-22"
+    },
+    {
+        title: "Jurassic World Dominion",
+        franchise: ["Jurassic Park"],
+        director: "Colin Trevorrow",
+        releaseDate: "2022-06-10"
+    },
+    {
+        title: "Jurassic World Rebirth",
+        franchise: ["Jurassic Park"],
+        director: "Gareth Edwards",
+        releaseDate: "2025-07-02"
+    },
+    {
+        title: "Scary Movie",
+        franchise: ["Scary Movie"],
+        director: "Keenan Ivory Williams",
+        releaseDate: "2000-07-07"
+    },
+    {
+        title: "Scary Movie 2",
+        franchise: ["Scary Movie"],
+        director: "Keenan Ivory Williams",
+        releaseDate: "2001-07-04"
+    },
+    {
+        title: "Scary Movie 3",
+        franchise: ["Scary Movie"],
+        director: "David Zucker",
+        releaseDate: "2003-10-24"
+    },
+    {
+        title: "Scary Movie 4",
+        franchise: ["Scary Movie"],
+        director: "David Zucker",
+        releaseDate: "2006-04-14"
+    },
+    {
+        title: "Scary Movie 5",
+        franchise: ["Scary Movie"],
+        director: "Malcolm D. Lee",
+        releaseDate: "2013-04-12"
+    },
+    {
+        title: "Scary Movie",
+        franchise: ["Scary Movie"],
+        director: "Michael Tiddes",
+        releaseDate: "2026-06-05"
+    },
+    {
+        title: "The Evil Dead",
+        franchise: ["Evil Dead"],
+        director: "Sam Raimi",
+        releaseDate: "1981-10-15"
+    },
+    {
+        title: "Evil Dead II",
+        franchise: ["Evil Dead"],
+        director: "Sam Raimi",
+        releaseDate: "1987-03-13"
+    },
+    {
+        title: "Army of Darkness",
+        franchise: ["Evil Dead"],
+        director: "Sam Raimi",
+        releaseDate: "1993-02-19"
+    },
+    {
+        title: "Evil Dead",
+        franchise: ["Evil Dead"],
+        director: "Fede Alvarez",
+        releaseDate: "2013-04-05"
+    },
+    {
+        title: "Evil Dead Rise",
+        franchise: ["Evil Dead"],
+        director: "Lee Cronin",
+        releaseDate: "2023-04-21"
+    },
+    {
+        title: "Evil Dead Burn",
+        franchise: ["Evil Dead"],
+        director: "Sebastien Vanicek",
+        releaseDate: "2026-04-07"
+    },
+    {
+        title: "Pirates of the Caribbean: The Curse of the Black Pearl",
+        franchise: ["Pirates of the Caribbean"],
+        director: "Gore Verbinski",
+        releaseDate: "2003-07-09"
+    },
+    {
+        title: "Pirates of the Caribbean: Dead Man's Chest",
+        franchise: ["Pirates of the Caribbean"],
+        director: "Gore Verbinski",
+        releaseDate: "2006-07-07"
+    },
+    {
+        title: "Pirates of the Caribbean: At World's End",
+        franchise: ["Pirates of the Caribbean"],
+        director: "Gore Verbinski",
+        releaseDate: "2007-05-25"
+    },
+    {
+        title: "Pirates of the Caribbean: On Stranger Tides",
+        franchise: ["Pirates of the Caribbean"],
+        director: "Rob Marshall",
+        releaseDate: "2011-05-20"
+    },
+    {
+        title: "Pirates of the Caribbean: Dead Men Tell No Tales",
+        franchise: ["Pirates of the Caribbean"],
+        director: "Espen Sandberg & Joachim Ronning",
+        releaseDate: "2017-05-26"
+    },
+    {
+        title: "Twilight",
+        franchise: ["Twilight"],
+        director: "Catherine Hardwicke",
+        releaseDate: "2008-11-21"
+    },
+    {
+        title: "The Twilight Saga: New Moon",
+        franchise: ["Twilight"],
+        director: "Chris Weitz",
+        releaseDate: "2009-11-20"
+    },
+    {
+        title: "The Twilight Saga: Eclipse",
+        franchise: ["Twilight"],
+        director: "David Slade",
+        releaseDate: "2010-06-30"
+    },
+    {
+        title: "The Twilight Saga: Breaking Dawn - Part 1",
+        franchise: ["Twilight"],
+        director: "Bill Condon",
+        releaseDate: "2011-11-18"
+    },
+    {
+        title: "The Twilight Saga: Breaking Dawn - Part 2",
+        franchise: ["Twilight"],
+        director: "Bill Condon",
+        releaseDate: "2012-11-16"
+    },
+    {
+        title: "Saw",
+        franchise: ["Saw"],
+        director: "James Wan",
+        releaseDate: "2004-10-29"
+    },
+    {
+        title: "Saw II",
+        franchise: ["Saw"],
+        director: "Darren Lynn Bousman",
+        releaseDate: "2005-10-28"
+    },
+    {
+        title: "Saw III",
+        franchise: ["Saw"],
+        director: "Darren Lynn Bousman",
+        releaseDate: "2006-10-27"
+    },
+    {
+        title: "Saw IV",
+        franchise: ["Saw"],
+        director: "Darren Lynn Bousman",
+        releaseDate: "2007-10-26"
+    },
+    {
+        title: "Saw V",
+        franchise: ["Saw"],
+        director: "David Hackl",
+        releaseDate: "2008-10-24"
+    },
+    {
+        title: "Saw VI",
+        franchise: ["Saw"],
+        director: "Kevin Greutert",
+        releaseDate: "2009-10-23"
+    },
+    {
+        title: "Saw 3D",
+        franchise: ["Saw"],
+        director: "Kevin Greutert",
+        releaseDate: "2010-10-29"
+    },
+    {
+        title: "Jigsaw",
+        franchise: ["Saw"],
+        director: "The Spierig Brothers",
+        releaseDate: "2017-10-27"
+    },
+    {
+        title: "Spiral",
+        franchise: ["Saw"],
+        director: "Darren Lynn Bousman",
+        releaseDate: "2021-05-14"
+    },
+    {
+        title: "Saw X",
+        franchise: ["Saw"],
+        director: "Kevin Greutert",
+        releaseDate: "2023-09-29"
+    },
+    {
+        title: "Batman: The Movie",
+        franchise: ["Batman"],
+        director: "Leslie H. Martinson",
+        releaseDate: "1966-07-30"
+    },
+    {
+        title: "Batman",
+        franchise: ["Batman"],
+        director: "Tim Burton",
+        releaseDate: "1989-06-19"
+    },
+    {
+        title: "Batman Returns",
+        franchise: ["Batman"],
+        director: "Tim Burton",
+        releaseDate: "1992-06-16"
+    },
+    {
+        title: "Batman Forever",
+        franchise: ["Batman"],
+        director: "Joel Schumacher",
+        releaseDate: "1995-06-09"
+    },
+    {
+        title: "Batman & Robin",
+        franchise: ["Batman"],
+        director: "Joel Schumacher",
+        releaseDate: "1997-06-12"
+    },
+    {
+        title: "Batman Begins",
+        franchise: ["Batman"],
+        director: "Christopher Nolan",
+        releaseDate: "2005-05-31"
+    },
+    {
+        title: "The Dark Knight",
+        franchise: ["Batman"],
+        director: "Christopher Nolan",
+        releaseDate: "2008-07-14"
+    },
+    {
+        title: "The Dark Knight Rises",
+        franchise: ["Batman"],
+        director: "Christopher Nolan",
+        releaseDate: "2012-07-16"
+    },
+    {
+        title: "The Batman",
+        franchise: ["Batman"],
+        director: "Matt Reeves",
+        releaseDate: "2022-03-01"
+    },
+    {
+        title: "Batman v Superman: Dawn of Justice",
+        franchise: ["Batman", "Superman", "DCEU"],
+        director: "Zack Snyder",
+        releaseDate: "2016-03-19"
+    },
+    {
+        title: "Justice League",
+        franchise: ["Batman", "Superman", "DCEU"],
+        director: "Zack Snyder",
+        releaseDate: "2017-11-13"
+    },
+    {
+        title: "Spider-Man",
+        franchise: ["Spider-Man"],
+        director: "Sam Raimi",
+        releaseDate: "2002-04-29"
+    },
+    {
+        title: "Spider-Man 2",
+        franchise: ["Spider-Man"],
+        director: "Sam Raimi",
+        releaseDate: "2004-06-25"
+    },
+    {
+        title: "Spider-Man 3",
+        franchise: ["Spider-Man"],
+        director: "Sam Raimi",
+        releaseDate: "2007-04-16"
+    },
+    {
+        title: "The Amazing Spider-Man",
+        franchise: ["Spider-Man"],
+        director: "Marc Webb",
+        releaseDate: "2012-06-13"
+    },
+    {
+        title: "The Amazing Spider-Man 2",
+        franchise: ["Spider-Man"],
+        director: "Marc Webb",
+        releaseDate: "2014-03-31"
+    },
+    {
+        title: "Spider-Man: Homecoming",
+        franchise: ["Spider-Man", "MCU"],
+        director: "Jon Watts",
+        releaseDate: "2017-06-28"
+    },
+    {
+        title: "Spider-Man: Far From Home",
+        franchise: ["Spider-Man", "MCU"],
+        director: "Jon Watts",
+        releaseDate: "2019-06-26"
+    },
+    {
+        title: "Spider-Man: No Way Home",
+        franchise: ["Spider-Man", "MCU"],
+        director: "Jon Watts",
+        releaseDate: "2021-12-13"
+    },
+    {
+        title: "Spider-Man: Brand New Day",
+        franchise: ["Spider-Man", "MCU"],
+        director: "Destin Daniel Cretton",
+        releaseDate: "2026-07-27"
+    },
+    {
+        title: "Spider-Man: Into the Spider-Verse",
+        franchise: ["Spider-Man"],
+        director: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+        releaseDate: "2018-12-01"
+    },
+    {
+        title: "Spider-Man: Across the Spider-Verse",
+        franchise: ["Spider-Man"],
+        director: "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+        releaseDate: "2023-05-30"
+    },
+    {
+        title: "The Terminator",
+        franchise: ["Terminator"],
+        director: "James Cameron",
+        releaseDate: "1984-10-26"
+    },
+    {
+        title: "Terminator 2: Judgment Day",
+        franchise: ["Terminator"],
+        director: "James Cameron",
+        releaseDate: "1991-07-03"
+    },
+    {
+        title: "Terminator 3: Rise of the Machines",
+        franchise: ["Terminator"],
+        director: "Jonathan Mostow",
+        releaseDate: "2003-07-02"
+    },
+    {
+        title: "Terminator Salvation",
+        franchise: ["Terminator"],
+        director: "McG",
+        releaseDate: "2009-05-21"
+    },
+    {
+        title: "Terminator Genisys",
+        franchise: ["Terminator"],
+        director: "Alan Taylor",
+        releaseDate: "2015-07-01"
+    },
+    {
+        title: "Terminator: Dark Fate",
+        franchise: ["Terminator"],
+        director: "Tim Miller",
+        releaseDate: "2019-11-01"
+    },
+    {
+        title: "The Texas Chainsaw Massacre",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Tobe Hooper",
+        releaseDate: "1974-10-11"
+    },
+    {
+        title: "The Texas Chainsaw Massacre 2",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Tobe Hooper",
+        releaseDate: "1986-08-22"
+    },
+    {
+        title: "Leatherface: The Texas Chainsaw Massacre III",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Jeff Burr",
+        releaseDate: "1990-01-12"
+    },
+    {
+        title: "The Return of the Texas Chainsaw Massacre",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Kim Henkel",
+        releaseDate: "1995-09-22"
+    },
+    {
+        title: "The Texas Chainsaw Massacre",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Marcus Nispel",
+        releaseDate: "2003-10-17"
+    },
+    {
+        title: "The Texas Chainsaw Massacre: The Beginning",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Jonathan Liebesman",
+        releaseDate: "2006-10-06"
+    },
+    {
+        title: "Texas Chainsaw 3D",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "John Luessenhop",
+        releaseDate: "2013-01-04"
+    },
+    {
+        title: "Leatherface",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "Julien Maury & Alexandre Bustillo",
+        releaseDate: "2017-10-20"
+    },
+    {
+        title: "Texas Chainsaw Massacre",
+        franchise: ["The Texas Chainsaw Massacre"],
+        director: "David Blue Garcia",
+        releaseDate: "2022-02-18"
+    },
+    {
+        title: "Raiders of the Lost Ark",
+        franchise: ["Indiana Jones"],
+        director: "Steven Spielberg",
+        releaseDate: "1981-06-12"
+    },
+    {
+        title: "Indiana Jones and the Temple of Doom",
+        franchise: ["Indiana Jones"],
+        director: "Steven Spielberg",
+        releaseDate: "1984-05-23"
+    },
+    {
+        title: "Indiana Jones and the Last Crusade",
+        franchise: ["Indiana Jones"],
+        director: "Steven Spielberg",
+        releaseDate: "1989-05-24"
+    },
+    {
+        title: "Indiana Jones and the Kingdom of the Crystal Skull",
+        franchise: ["Indiana Jones"],
+        director: "Steven Spielberg",
+        releaseDate: "2008-05-22"
+    },
+    {
+        title: "Indiana Jones and the Dial of Destiny",
+        franchise: ["Indiana Jones"],
+        director: "James Mangold",
+        releaseDate: "2023-06-30"
+    },
+    {
+        title: "Harry Potter and the Philosopher's Stone",
+        franchise: ["World of Wizardry"],
+        director: "Chris Columbus",
+        releaseDate: "2001-11-16"
+    },
+    {
+        title: "Harry Potter and the Chamber of Secrets",
+        franchise: ["World of Wizardry"],
+        director: "Chris Columbus",
+        releaseDate: "2002-11-14"
+    },
+    {
+        title: "Harry Potter and the Prisoner of Azkaban",
+        franchise: ["World of Wizardry"],
+        director: "Alfonso Cuaron",
+        releaseDate: "2004-05-31"
+    },
+    {
+        title: "Harry Potter and the Goblet of Fire",
+        franchise: ["World of Wizardry"],
+        director: "Mike Newell",
+        releaseDate: "2005-11-18"
+    },
+    {
+        title: "Harry Potter and the Order of the Phoenix",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2007-07-11"
+    },
+    {
+        title: "Harry Potter and the Half-Blood Prince",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2009-07-15"
+    },
+    {
+        title: "Harry Potter and the Deathly Hallows - Part 1",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2010-11-19"
+    },
+    {
+        title: "Harry Potter and the Deathly Hallows - Part 2",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2011-07-15"
+    },
+    {
+        title: "Fantastic Beasts and Where to Find Them",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2016-11-18"
+    },
+    {
+        title: "Fantastic Beasts: The Crimes of Grindelwald",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2018-11-16"
+    },
+    {
+        title: "Fantastic Beasts: The Secrets of Dumbledore",
+        franchise: ["World of Wizardry"],
+        director: "David Yates",
+        releaseDate: "2022-04-15"
+    },
+    {
+        title: "The Hunger Games",
+        franchise: ["The Hunger Games"],
+        director: "Gary Ross",
+        releaseDate: "2012-03-23"
+    },
+    {
+        title: "The Hunger Games: Catching Fire",
+        franchise: ["The Hunger Games"],
+        director: "Francis Lawrence",
+        releaseDate: "2013-11-22"
+    },
+    {
+        title: "The Hunger Games: Mockingjay - Part 1",
+        franchise: ["The Hunger Games"],
+        director: "Francis Lawrence",
+        releaseDate: "2014-11-21"
+    },
+    {
+        title: "The Hunger Games: Mockingjay - Part 2",
+        franchise: ["The Hunger Games"],
+        director: "Francis Lawrence",
+        releaseDate: "2015-11-20"
+    },
+    {
+        title: "The Hunger Games: The Ballad of Songbirds & Snakes",
+        franchise: ["The Hunger Games"],
+        director: "Francis Lawrence",
+        releaseDate: "2023-11-17"
+    },
+    {
+        title: "The Hunger Games: Sunrise on the Reaping",
+        franchise: ["The Hunger Games"],
+        director: "Francis Lawrence",
+        releaseDate: "2026-11-20"
+    },
+    {
+        title: "Tremors",
+        franchise: ["Tremors"],
+        director: "Ron Underwood",
+        releaseDate: "1990-01-19"
+    },
+    {
+        title: "Tremors 2: Aftershocks",
+        franchise: ["Tremors"],
+        director: "S.S. Wilson",
+        releaseDate: "1996-04-09"
+    },
+    {
+        title: "Tremors 3: Back to Perfection",
+        franchise: ["Tremors"],
+        director: "Brent Maddock",
+        releaseDate: "2001-10-02"
+    },
+    {
+        title: "Tremors 4: The Legend Begins",
+        franchise: ["Tremors"],
+        director: "S.S. Wilson",
+        releaseDate: "2004-01-02"
+    },
+    {
+        title: "Tremors 5: Bloodlines",
+        franchise: ["Tremors"],
+        director: "Don Michael Paul",
+        releaseDate: "2015-10-06"
+    },
+    {
+        title: "Tremors: A Cold Day in Hell",
+        franchise: ["Tremors"],
+        director: "Don Michael Paul",
+        releaseDate: "2018-05-01"
+    },
+    {
+        title: "Tremors: Shrieker Island",
+        franchise: ["Tremors"],
+        director: "Don Michael Paul",
+        releaseDate: "2020-10-20"
+    },
+    {
+        title: "Final Destination",
+        franchise: ["Final Destination"],
+        director: "James Wong",
+        releaseDate: "2000-03-17"
+    },
+    {
+        title: "Final Destination 2",
+        franchise: ["Final Destination"],
+        director: "David R. Ellis",
+        releaseDate: "2003-01-31"
+    },
+    {
+        title: "Final Destination 3",
+        franchise: ["Final Destination"],
+        director: "James Wong",
+        releaseDate: "2006-02-10"
+    },
+    {
+        title: "The Final Destination",
+        franchise: ["Final Destination"],
+        director: "David R. Ellis",
+        releaseDate: "2009-08-28"
+    },
+    {
+        title: "Final Destination 5",
+        franchise: ["Final Destination"],
+        director: "Steven Quale",
+        releaseDate: "2011-08-12"
+    },
+    {
+        title: "Final Destination Bloodlines",
+        franchise: ["Final Destination"],
+        director: "Adam Stein & Zach Lipovsky",
+        releaseDate: "2025-05-16"
+    },
+    {
+        title: "Paranormal Activity",
+        franchise: ["Paranormal Activity"],
+        director: "Oren Peli",
+        releaseDate: "2009-09-25"
+    },
+    {
+        title: "Paranormal Activity 2",
+        franchise: ["Paranormal Activity"],
+        director: "Tod Williams",
+        releaseDate: "2010-10-22"
+    },
+    {
+        title: "Paranormal Activity 3",
+        franchise: ["Paranormal Activity"],
+        director: "Henry Joost & Ariel Schulman",
+        releaseDate: "2011-10-21"
+    },
+    {
+        title: "Paranormal Activity 4",
+        franchise: ["Paranormal Activity"],
+        director: "Henry Joost & Ariel Schulman",
+        releaseDate: "2012-10-19"
+    },
+    {
+        title: "Paranormal Activity: The Marked Ones",
+        franchise: ["Paranormal Activity"],
+        director: "Christopher Landon",
+        releaseDate: "2014-01-03"
+    },
+    {
+        title: "Paranormal Activity: The Ghost Dimension",
+        franchise: ["Paranormal Activity"],
+        director: "Gregory Plotkin",
+        releaseDate: "2015-10-23"
+    },
+    {
+        title: "Paranormal Activity: Next of Kin",
+        franchise: ["Paranormal Activity"],
+        director: "William Eubank",
+        releaseDate: "2021-10-29"
+    },
+    {
+        title: "Star Trek: The Motion Picture",
+        franchise: ["Star Trek"],
+        director: "Robert Wise",
+        releaseDate: "1979-12-07"
+    },
+    {
+        title: "Star Trek II: The Wrath of Khan",
+        franchise: ["Star Trek"],
+        director: "Nicholas Meyer",
+        releaseDate: "1982-06-04"
+    },
+    {
+        title: "Star Trek III: The Search for Spock",
+        franchise: ["Star Trek"],
+        director: "Leonard Nimoy",
+        releaseDate: "1984-06-01"
+    },
+    {
+        title: "Star Trek IV: The Voyage Home",
+        franchise: ["Star Trek"],
+        director: "Leonard Nimoy",
+        releaseDate: "1986-11-26"
+    },
+    {
+        title: "Star Trek V: The Final Frontier",
+        franchise: ["Star Trek"],
+        director: "William Shatner",
+        releaseDate: "1989-06-09"
+    },
+    {
+        title: "Star Trek VI: The Undiscovered Country",
+        franchise: ["Star Trek"],
+        director: "Nicholas Meyer",
+        releaseDate: "1991-12-06"
+    },
+    {
+        title: "Star Trek Generations",
+        franchise: ["Star Trek"],
+        director: "David Carson",
+        releaseDate: "1994-11-18"
+    },
+    {
+        title: "Star Trek: First Contact",
+        franchise: ["Star Trek"],
+        director: "Jonathan Frakes",
+        releaseDate: "1996-11-22"
+    },
+    {
+        title: "Star Trek: Insurrection",
+        franchise: ["Star Trek"],
+        director: "Jonathan Frakes",
+        releaseDate: "1998-12-11"
+    },
+    {
+        title: "Star Trek: Nemesis",
+        franchise: ["Star Trek"],
+        director: "Stuart Baird",
+        releaseDate: "2002-12-13"
+    },
+    {
+        title: "Star Trek",
+        franchise: ["Star Trek"],
+        director: "J.J. Abrams",
+        releaseDate: "2009-05-08"
+    },
+    {
+        title: "Star Trek Into Darkness",
+        franchise: ["Star Trek"],
+        director: "J.J. Abrams",
+        releaseDate: "2013-05-17"
+    },
+    {
+        title: "Star Trek Beyond",
+        franchise: ["Star Trek"],
+        director: "Justin Lin",
+        releaseDate: "2016-07-22"
     }
 ];
 

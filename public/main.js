@@ -1,11 +1,6 @@
-import movieDb from './movieDb.js';
-
 const franchiseOne = document.querySelector("#franchise-one");
 const franchiseTwo = document.querySelector("#franchise-two");
 const timeline = document.querySelector("#timeline");
-const franchises = [...new Set(
-    movieDb.flatMap(movie => movie.franchise)
-)];
 
 // layout tuning (all in px)
 const PX_PER_YEAR = 10;   // how much real time stretches the spacing
@@ -15,11 +10,15 @@ const CARD_SPACING = 10;  // breathing room between cards in the same lane
 const MARKER_HEIGHT = 40; // vertical space a decade marker takes
 const MS_PER_YEAR = 365.25 * 24 * 60 * 60 * 1000;
 
-function populateDropdown(dropdown) {
+async function populateDropdown(dropdown) {
+    const resp = await fetch("/api/franchises");
+    if (!resp.ok) throw new Error(`HTTP error: ${resp.status}`);
+    const franchises = await resp.json();
+
     for (const f of franchises) {
         const option = document.createElement("option");
-        option.value = f;
-        option.textContent = f;
+        option.value = f.name;
+        option.textContent = f.name;
 
         dropdown.appendChild(option);
     }
@@ -28,8 +27,8 @@ populateDropdown(franchiseOne);
 populateDropdown(franchiseTwo);
 
 // start on two different franchises so both lanes have content
-franchiseOne.selectedIndex = Math.min(1, franchises.length - 1);
-franchiseTwo.selectedIndex = Math.min(2, franchises.length - 1);
+franchiseOne.selectedIndex = 0;
+franchiseTwo.selectedIndex = 1;
 
 function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -46,21 +45,28 @@ function formatDate(iso) {
     });
 }
 
-function getTimelineItems() {
+async function getTimelineItems() {
     const left = franchiseOne.value;
     const right = franchiseTwo.value;
     const items = [];
 
-    for (const movie of movieDb) {
-        const belongsToLeft = movie.franchise.includes(left);
-        const belongsToRight = movie.franchise.includes(right);
+    const params = new URLSearchParams();
+    params.append("franchises", left);
+    params.append("franchises", right);
+    const resp = await fetch(`/api/movies?${params}`);
+    if (!resp.ok) throw new Error(`HTTP error: ${resp.status}`);
+    const movies = await resp.json();
+
+    for (const m of movies) {
+        const belongsToLeft = m.franchise.includes(left);
+        const belongsToRight = m.franchise.includes(right);
 
         if (!belongsToLeft && !belongsToRight) continue;
 
         const lane = belongsToLeft && belongsToRight ? "both"
             : belongsToLeft ? "left" : "right";
 
-        items.push({ ...movie, lane });
+        items.push({ ...m, lane });
     }
 
     return items.sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));
@@ -72,8 +78,6 @@ function createCard(item) {
     card.dataset.lane = item.lane;
     card.dataset.date = item.releaseDate;
 
-    if (item.lane === "both") card.append(el("span", "badge", "Crossover"));
-
     const time = el("time", null, formatDate(item.releaseDate));
     time.dateTime = item.releaseDate;
 
@@ -81,13 +85,14 @@ function createCard(item) {
     return card;
 }
 
-function renderMovies() {
+async function renderMovies() {
     timeline.innerHTML = "";
     timeline.append(el("div", "spine"));
 
     let previousDecade = null;
 
-    for (const item of getTimelineItems()) {
+    const items = await getTimelineItems();
+    for (const item of items) {
         const decade = Math.floor(Number(item.releaseDate.slice(0, 4)) / 10) * 10;
 
         if (decade !== previousDecade) {
