@@ -2,6 +2,14 @@
 
 **Every film has its place in time.**
 
+<p align="center">
+  <img src="assets/screenshots/reeltime-image1.png" width="800" alt="Reel Time franchise comparison">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/reeltime-image2.png" width="800" alt="Reel Time crossover films">
+</p>
+
 Reel Time is a web application for comparing movie franchises on a shared chronological release timeline. Select two franchises to see how their release histories line up, including crossover films that belong to both.
 
 Built with JavaScript, Go, and PostgreSQL.
