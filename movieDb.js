@@ -1486,6 +1486,978 @@ const movieDb = [
         franchise: ["Star Trek"],
         director: "Justin Lin",
         releaseDate: "2016-07-22"
+    },
+    {
+        title: "The Muppet Movie",
+        franchise: ["The Muppets"],
+        director: "James Frawley",
+        releaseDate: "1979-05-31"
+    },
+    {
+        title: "The Great Muppet Caper",
+        franchise: ["The Muppets"],
+        director: "Jim Henson",
+        releaseDate: "1981-06-26"
+    },
+    {
+        title: "The Muppets Take Manhattan",
+        franchise: ["The Muppets"],
+        director: "Frank Oz",
+        releaseDate: "1984-07-13"
+    },
+    {
+        title: "The Muppet Christmas Carol",
+        franchise: ["The Muppets"],
+        director: "Brian Henson",
+        releaseDate: "1992-12-11"
+    },
+    {
+        title: "Muppet Treasure Island",
+        franchise: ["The Muppets"],
+        director: "Brian Henson",
+        releaseDate: "1996-02-16"
+    },
+    {
+        title: "Muppets from Space",
+        franchise: ["The Muppets"],
+        director: "Tim Hill",
+        releaseDate: "1999-07-14"
+    },
+    {
+        title: "The Muppets",
+        franchise: ["The Muppets"],
+        director: "James Bobin",
+        releaseDate: "2011-11-04"
+    },
+    {
+        title: "Muppets Most Wanted",
+        franchise: ["The Muppets"],
+        director: "James Bobin",
+        releaseDate: "2014-03-11"
+    },
+    {
+        title: "The Fast and the Furious",
+        franchise: ["Fast and Furious"],
+        director: "Rob Cohen",
+        releaseDate: "2001-06-22"
+    },
+    {
+        title: "2 Fast 2 Furious",
+        franchise: ["Fast and Furious"],
+        director: "John Singleton",
+        releaseDate: "2003-06-06"
+    },
+    {
+        title: "The Fast and the Furious: Tokyo Drift",
+        franchise: ["Fast and Furious"],
+        director: "Justin Lin",
+        releaseDate: "2006-06-16"
+    },
+    {
+        title: "Fast & Furious",
+        franchise: ["Fast and Furious"],
+        director: "Justin Lin",
+        releaseDate: "2009-04-03"
+    },
+    {
+        title: "Fast Five",
+        franchise: ["Fast and Furious"],
+        director: "Justin Lin",
+        releaseDate: "2011-04-29"
+    },
+    {
+        title: "Fast & Furious 6",
+        franchise: ["Fast and Furious"],
+        director: "Justin Lin",
+        releaseDate: "2013-05-24"
+    },
+    {
+        title: "Furious 7",
+        franchise: ["Fast and Furious"],
+        director: "James Wan",
+        releaseDate: "2015-04-03"
+    },
+    {
+        title: "The Fate of the Furious",
+        franchise: ["Fast and Furious"],
+        director: "F. Gary Gray",
+        releaseDate: "2017-04-14"
+    },
+    {
+        title: "F9",
+        franchise: ["Fast and Furious"],
+        director: "Justin Lin",
+        releaseDate: "2021-06-25"
+    },
+    {
+        title: "Fast X",
+        franchise: ["Fast and Furious"],
+        director: "Louis Leterrier",
+        releaseDate: "2023-05-19"
+    },
+    {
+        title: "Rocky",
+        franchise: ["Rocky"],
+        director: "John G. Avildsen",
+        releaseDate: "1976-12-03"
+    },
+    {
+        title: "Rocky II",
+        franchise: ["Rocky"],
+        director: "Sylvester Stallone",
+        releaseDate: "1979-06-15"
+    },
+    {
+        title: "Rocky III",
+        franchise: ["Rocky"],
+        director: "Sylvester Stallone",
+        releaseDate: "1982-05-28"
+    },
+    {
+        title: "Rocky IV",
+        franchise: ["Rocky"],
+        director: "Sylvester Stallone",
+        releaseDate: "1985-11-27"
+    },
+    {
+        title: "Rocky V",
+        franchise: ["Rocky"],
+        director: "John G. Avildsen",
+        releaseDate: "1990-11-16"
+    },
+    {
+        title: "Rocky Balboa",
+        franchise: ["Rocky"],
+        director: "Sylvester Stallone",
+        releaseDate: "2006-12-20"
+    },
+    {
+        title: "Creed",
+        franchise: ["Rocky"],
+        director: "Ryan Coogler",
+        releaseDate: "2015-11-25"
+    },
+    {
+        title: "Creed II",
+        franchise: ["Rocky"],
+        director: "Steven Caple Jr.",
+        releaseDate: "2018-11-21"
+    },
+    {
+        title: "Creed III",
+        franchise: ["Rocky"],
+        director: "Michael B. Jordan",
+        releaseDate: "2023-03-03"
+    },
+    {
+        title: "The Conjuring",
+        franchise: ["The Warren Files"],
+        director: "James Wan",
+        releaseDate: "2013-07-19"
+    },
+    {
+        title: "Annabelle",
+        franchise: ["The Warren Files"],
+        director: "John R. Leonetti",
+        releaseDate: "2014-10-03"
+    },
+    {
+        title: "The Conjuring 2",
+        franchise: ["The Warren Files"],
+        director: "James Wan",
+        releaseDate: "2016-06-10"
+    },
+    {
+        title: "Annabelle: Creation",
+        franchise: ["The Warren Files"],
+        director: "David F. Sandberg",
+        releaseDate: "2017-08-11"
+    },
+    {
+        title: "The Nun",
+        franchise: ["The Warren Files"],
+        director: "Corin Hardy",
+        releaseDate: "2018-09-07"
+    },
+    {
+        title: "Annabelle Comes Home",
+        franchise: ["The Warren Files"],
+        director: "Gary Dauberman",
+        releaseDate: "2019-06-26"
+    },
+    {
+        title: "The Conjuring: The Devil Made Me Do It",
+        franchise: ["The Warren Files"],
+        director: "Michael Chaves",
+        releaseDate: "2021-06-04"
+    },
+    {
+        title: "The Nun II",
+        franchise: ["The Warren Files"],
+        director: "Michael Chaves",
+        releaseDate: "2023-09-08"
+    },
+    {
+        title: "The Conjuring: Last Rites",
+        franchise: ["The Warren Files"],
+        director: "Michael Chaves",
+        releaseDate: "2025-09-05"
+    },
+    {
+        title: "Mission: Impossible",
+        franchise: ["Mission: Impossible"],
+        director: "Brian De Palma",
+        releaseDate: "1996-05-22"
+    },
+    {
+        title: "Mission: Impossible 2",
+        franchise: ["Mission: Impossible"],
+        director: "John Woo",
+        releaseDate: "2000-05-24"
+    },
+    {
+        title: "Mission: Impossible III",
+        franchise: ["Mission: Impossible"],
+        director: "J.J. Abrams",
+        releaseDate: "2006-05-05"
+    },
+    {
+        title: "Mission: Impossible - Ghost Protocol",
+        franchise: ["Mission: Impossible"],
+        director: "Brad Bird",
+        releaseDate: "2011-12-16"
+    },
+    {
+        title: "Mission: Impossible - Rogue Nation",
+        franchise: ["Mission: Impossible"],
+        director: "Christopher McQuarrie",
+        releaseDate: "2015-07-31"
+    },
+    {
+        title: "Mission: Impossible - Fallout",
+        franchise: ["Mission: Impossible"],
+        director: "Christopher McQuarrie",
+        releaseDate: "2018-07-27"
+    },
+    {
+        title: "Mission: Impossible - Dead Reckoning Part One",
+        franchise: ["Mission: Impossible"],
+        director: "Christopher McQuarrie",
+        releaseDate: "2023-07-12"
+    },
+    {
+        title: "Mission: Impossible - The Final Reckoning",
+        franchise: ["Mission: Impossible"],
+        director: "Christopher McQuarrie",
+        releaseDate: "2025-05-23"
+    },
+    {
+        title: "Hellraiser",
+        franchise: ["Hellraiser"],
+        director: "Clive Barker",
+        releaseDate: "1987-09-18"
+    },
+    {
+        title: "Hellbound: Hellraiser II",
+        franchise: ["Hellraiser"],
+        director: "Tony Randel",
+        releaseDate: "1988-12-23"
+    },
+    {
+        title: "Hellraiser III: Hell on Earth",
+        franchise: ["Hellraiser"],
+        director: "Anthony Hickox",
+        releaseDate: "1992-09-11"
+    },
+    {
+        title: "Hellraiser: Bloodline",
+        franchise: ["Hellraiser"],
+        director: "Kevin Yagher",
+        releaseDate: "1996-03-08"
+    },
+    {
+        title: "Hellraiser: Inferno",
+        franchise: ["Hellraiser"],
+        director: "Scott Derrickson",
+        releaseDate: "2000-10-03"
+    },
+    {
+        title: "Hellraiser: Hellseeker",
+        franchise: ["Hellraiser"],
+        director: "Rick Bota",
+        releaseDate: "2002-10-15"
+    },
+    {
+        title: "Hellraiser: Deader",
+        franchise: ["Hellraiser"],
+        director: "Rick Bota",
+        releaseDate: "2005-06-07"
+    },
+    {
+        title: "Hellraiser: Hellworld",
+        franchise: ["Hellraiser"],
+        director: "Rick Bota",
+        releaseDate: "2005-09-06"
+    },
+    {
+        title: "Hellraiser: Revelations",
+        franchise: ["Hellraiser"],
+        director: "Victor Garcia",
+        releaseDate: "2011-03-18"
+    },
+    {
+        title: "Hellraiser: Judgment",
+        franchise: ["Hellraiser"],
+        director: "Gary J. Tunnicliffe",
+        releaseDate: "2018-02-13"
+    },
+    {
+        title: "Hellraiser",
+        franchise: ["Hellraiser"],
+        director: "David Bruckner",
+        releaseDate: "2022-10-07"
+    },
+    {
+        title: "The Exorcist",
+        franchise: ["The Exorcist"],
+        director: "William Friedkin",
+        releaseDate: "1973-12-26"
+    },
+    {
+        title: "Exorcist II: The Heretic",
+        franchise: ["The Exorcist"],
+        director: "John Boorman",
+        releaseDate: "1977-06-17"
+    },
+    {
+        title: "The Exorcist III",
+        franchise: ["The Exorcist"],
+        director: "William Peter Blatty",
+        releaseDate: "1990-08-17"
+    },
+    {
+        title: "Exorcist: The Beginning",
+        franchise: ["The Exorcist"],
+        director: "Renny Harlin",
+        releaseDate: "2004-08-20"
+    },
+    {
+        title: "Dominion: Prequel to the Exorcist",
+        franchise: ["The Exorcist"],
+        director: "Paul Schrader",
+        releaseDate: "2005-05-20"
+    },
+    {
+        title: "The Exorcist: Believer",
+        franchise: ["The Exorcist"],
+        director: "David Gordon Green",
+        releaseDate: "2023-10-06"
+    },
+    {
+        title: "The Exorcist: Martyrs",
+        franchise: ["The Exorcist"],
+        director: "Mike Flanagan",
+        releaseDate: "2027-03-12"
+    },
+    {
+        title: "Jackass: The Movie",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2002-10-25"
+    },
+    {
+        title: "Jackass Number Two",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2006-09-22"
+    },
+    {
+        title: "Jackass 3D",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2010-10-15"
+    },
+    {
+        title: "Jackass Presents: Bad Grandpa",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2013-10-25"
+    },
+    {
+        title: "Jackass Forever",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2022-02-01"
+    },
+    {
+        title: "Jackass: Best and Last",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2026-06-26"
+    },
+    {
+        title: "Jackass Presents: Matt Hoffman's Tribute to Evel Knievel",
+        franchise: ["Jackass"],
+        director: "Jeff Tremaine",
+        releaseDate: "2008-05-27"
+    },
+    {
+        title: "The Matrix",
+        franchise: ["The Matrix"],
+        director: "The Wachowskis",
+        releaseDate: "1999-03-31"
+    },
+    {
+        title: "The Matrix Reloaded",
+        franchise: ["The Matrix"],
+        director: "The Wachowskis",
+        releaseDate: "2003-05-15"
+    },
+    {
+        title: "The Matrix Revolutions",
+        franchise: ["The Matrix"],
+        director: "The Wachowskis",
+        releaseDate: "2003-11-05"
+    },
+    {
+        title: "The Matrix Resurrections",
+        franchise: ["The Matrix"],
+        director: "Lana Wachowski",
+        releaseDate: "2021-12-22"
+    },
+    {
+        title: "The Animatrix",
+        franchise: ["The Matrix"],
+        director: "Anthology",
+        releaseDate: "2003-06-03"
+    },
+    {
+        title: "Hell House LLC",
+        franchise: ["Hell House LLC"],
+        director: "Stephen Cognetti",
+        releaseDate: "2015-10-16"
+    },
+    {
+        title: "Hell House LLC II: The Abaddon Hotel",
+        franchise: ["Hell House LLC"],
+        director: "Stephen Cognetti",
+        releaseDate: "2018-09-20"
+    },
+    {
+        title: "Hell House LLC III: Lake of Fire",
+        franchise: ["Hell House LLC"],
+        director: "Stephen Cognetti",
+        releaseDate: "2019-09-19"
+    },
+    {
+        title: "Hell House LLC Origins: The Carmichael Manor",
+        franchise: ["Hell House LLC"],
+        director: "Stephen Cognetti",
+        releaseDate: "2023-10-30"
+    },
+    {
+        title: "Hell House LLC: Lineage",
+        franchise: ["Hell House LLC"],
+        director: "Stephen Cognetti",
+        releaseDate: "2025-08-20"
+    },
+    {
+        title: "Die Hard",
+        franchise: ["Die Hard"],
+        director: "John McTiernan",
+        releaseDate: "1988-07-15"
+    },
+    {
+        title: "Die Hard 2",
+        franchise: ["Die Hard"],
+        director: "Renny Harlin",
+        releaseDate: "1990-07-04"
+    },
+    {
+        title: "Die Hard with a Vengeance",
+        franchise: ["Die Hard"],
+        director: "John McTiernan",
+        releaseDate: "1995-05-19"
+    },
+    {
+        title: "Live Free or Die Hard",
+        franchise: ["Die Hard"],
+        director: "Len Wiseman",
+        releaseDate: "2007-06-27"
+    },
+    {
+        title: "A Good Day to Die Hard",
+        franchise: ["Die Hard"],
+        director: "John Moore",
+        releaseDate: "2013-02-14"
+    },
+    {
+        title: "Insidious",
+        franchise: ["Insidious"],
+        director: "James Wan",
+        releaseDate: "2011-04-01"
+    },
+    {
+        title: "Insidious: Chapter 2",
+        franchise: ["Insidious"],
+        director: "James Wan",
+        releaseDate: "2013-09-13"
+    },
+    {
+        title: "Insidious: Chapter 3",
+        franchise: ["Insidious"],
+        director: "Leigh Whannell",
+        releaseDate: "2015-06-05"
+    },
+    {
+        title: "Insidious: The Last Key",
+        franchise: ["Insidious"],
+        director: "Adam Robitel",
+        releaseDate: "2018-01-05"
+    },
+    {
+        title: "Insidious: The Red Door",
+        franchise: ["Insidious"],
+        director: "Patrick Wilson",
+        releaseDate: "2023-07-07"
+    },
+    {
+        title: "Insidious: Out of the Further",
+        franchise: ["Insidious"],
+        director: "Jacob Chase",
+        releaseDate: "2026-08-21"
+    },
+    {
+        title: "The Mummy",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Karl Freund",
+        releaseDate: "1932-12-22"
+    },
+    {
+        title: "The Mummy's Hand",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Christy Cabanne",
+        releaseDate: "1940-09-20"
+    },
+    {
+        title: "The Mummy's Tomb",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Harold Young",
+        releaseDate: "1942-10-23"
+    },
+    {
+        title: "The Mummy's Ghost",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Reginald LeBorg",
+        releaseDate: "1944-07-07"
+    },
+    {
+        title: "The Mummy's Curse",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Leslie Goodwins",
+        releaseDate: "1944-12-22"
+    },
+    {
+        title: "Abbot and Costello Meet the Mummy",
+        franchise: ["The Mummy", "Universal Classic Monsters"],
+        director: "Charles Lamont",
+        releaseDate: "1955-04-16"
+    },
+    {
+        title: "The Mummy",
+        franchise: ["The Mummy"],
+        director: "Terence Fisher",
+        releaseDate: "1959-09-25"
+    },
+    {
+        title: "The Curse of the Mummy's Tomb",
+        franchise: ["The Mummy"],
+        director: "Michael Carreras",
+        releaseDate: "1964-10-18"
+    },
+    {
+        title: "The Mummy's Shroud",
+        franchise: ["The Mummy"],
+        director: "John Gilling",
+        releaseDate: "1967-03-15"
+    },
+    {
+        title: "Blood from the Mummy's Tomb",
+        franchise: ["The Mummy"],
+        director: "Seth Holt & Michael Carreras",
+        releaseDate: "1971-10-14"
+    },
+    {
+        title: "The Mummy",
+        franchise: ["The Mummy"],
+        director: "Stephen Sommers",
+        releaseDate: "1999-05-07"
+    },
+    {
+        title: "The Mummy Returns",
+        franchise: ["The Mummy"],
+        director: "Stephen Sommers",
+        releaseDate: "2001-05-04"
+    },
+    {
+        title: "The Mummy: Tomb of the Dragon Emperor",
+        franchise: ["The Mummy"],
+        director: "Rob Cohen",
+        releaseDate: "2008-08-01"
+    },
+    {
+        title: "The Mummy: Book of the Dead",
+        franchise: ["The Mummy"],
+        director: "Matt Bettinelli-Olpin, Tyler Gillett",
+        releaseDate: "2027-10-15"
+    },
+    {
+        title: "The Mummy",
+        franchise: ["The Mummy"],
+        director: "Alex Kurtzman",
+        releaseDate: "2017-06-09"
+    },
+    {
+        title: "Lee Cronin's The Mummy",
+        franchise: ["The Mummy"],
+        director: "Lee Cronin",
+        releaseDate: "2026-04-17"
+    },
+    {
+        title: "Hatchet",
+        franchise: ["Hatchet"],
+        director: "Adam Green",
+        releaseDate: "2007-09-07"
+    },
+    {
+        title: "Hatchet II",
+        franchise: ["Hatchet"],
+        director: "Adam Green",
+        releaseDate: "2010-10-01"
+    },
+    {
+        title: "Hatchet III",
+        franchise: ["Hatchet"],
+        director: "B.J. McDonnell",
+        releaseDate: "2013-06-14"
+    },
+    {
+        title: "Victor Crowley",
+        franchise: ["Hatchet"],
+        director: "Adam Green",
+        releaseDate: "2017-08-22"
+    },
+    {
+        title: "Lethal Weapon",
+        franchise: ["Lethal Weapon"],
+        director: "Richard Donner",
+        releaseDate: "1987-03-06"
+    },
+    {
+        title: "Lethal Weapon 2",
+        franchise: ["Lethal Weapon"],
+        director: "Richard Donner",
+        releaseDate: "1989-07-07"
+    },
+    {
+        title: "Lethal Weapon 3",
+        franchise: ["Lethal Weapon"],
+        director: "Richard Donner",
+        releaseDate: "1992-05-15"
+    },
+    {
+        title: "Lethal Weapon 4",
+        franchise: ["Lethal Weapon"],
+        director: "Richard Donner",
+        releaseDate: "1998-07-10"
+    },
+    {
+        title: "Air Bud",
+        franchise: ["Air Bud"],
+        director: "Charles Martin Smith",
+        releaseDate: "1997-08-01"
+    },
+    {
+        title: "Air Bud: Golden Retriver",
+        franchise: ["Air Bud"],
+        director: "Richard Martin",
+        releaseDate: "1998-08-14"
+    },
+    {
+        title: "Air Bud: World Pup",
+        franchise: ["Air Bud"],
+        director: "Bill Bannerman",
+        releaseDate: "2000-12-12"
+    },
+    {
+        title: "Air Bud: Seventh Inning Fetch",
+        franchise: ["Air Bud"],
+        director: "Robert Vince",
+        releaseDate: "2002-06-18"
+    },
+    {
+        title: "Air Bud: Spikes Back",
+        franchise: ["Air Bud"],
+        director: "Mike Southon",
+        releaseDate: "2003-06-24"
+    },
+    {
+        title: "Air Bud Returns",
+        franchise: ["Air Bud"],
+        director: "Robert Vince",
+        releaseDate: "2027-01-22"
+    },
+    {
+        title: "Lord of the Rings: The Fellowship of the Ring",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2001-12-19"
+    },
+    {
+        title: "Lord of the Rings: The Two Towers",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2002-12-18"
+    },
+    {
+        title: "Lord of the Rings: The Return of the King",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2003-12-17"
+    },
+    {
+        title: "The Hobbit: An Unexpected Journey",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2012-12-14"
+    },
+    {
+        title: "The Hobbit: The Desolation of Smaug",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2013-12-13"
+    },
+    {
+        title: "The Hobbit: The Battle of the Five Armies",
+        franchise: ["Tolkien's Middle-Earth"],
+        director: "Peter Jackson",
+        releaseDate: "2014-12-17"
+    },
+    {
+        title: "Toy Story",
+        franchise: ["Toy Story"],
+        director: "John Lasseter",
+        releaseDate: "1995-11-22"
+    },
+    {
+        title: "Toy Story 2",
+        franchise: ["Toy Story"],
+        director: "John Lasseter",
+        releaseDate: "1999-11-24"
+    },
+    {
+        title: "Toy Story 3",
+        franchise: ["Toy Story"],
+        director: "Lee Unkrich",
+        releaseDate: "2010-06-18"
+    },
+    {
+        title: "Toy Story 4",
+        franchise: ["Toy Story"],
+        director: "Josh Cooley",
+        releaseDate: "2019-06-21"
+    },
+    {
+        title: "Toy Story 5",
+        franchise: ["Toy Story"],
+        director: "Andrew Stanton",
+        releaseDate: "2026-06-19"
+    },
+    {
+        title: "Lightyear",
+        franchise: ["Toy Story"],
+        director: "Angus MacLane",
+        releaseDate: "2022-06-17"
+    },
+    {
+        title: "First Blood",
+        franchise: ["Rambo"],
+        director: "Ted Kotcheff",
+        releaseDate: "1982-10-22"
+    },
+    {
+        title: "Rambo: First Blood Part II",
+        franchise: ["Rambo"],
+        director: "George P. Cosmatos",
+        releaseDate: "1985-05-22"
+    },
+    {
+        title: "Rambo III",
+        franchise: ["Rambo"],
+        director: "Peter MacDonald",
+        releaseDate: "1988-05-25"
+    },
+    {
+        title: "Rambo",
+        franchise: ["Rambo"],
+        director: "Sylvester Stallone",
+        releaseDate: "2008-01-25"
+    },
+    {
+        title: "John Rambo",
+        franchise: ["Rambo"],
+        director: "Jalmari Helander",
+        releaseDate: "2027-06-04"
+    },
+    {
+        title: "X-Men",
+        franchise: ["X-Men"],
+        director: "Bryan Singer",
+        releaseDate: "2000-07-14"
+    },
+    {
+        title: "X2",
+        franchise: ["X-Men"],
+        director: "Bryan Singer",
+        releaseDate: "2003-05-02"
+    },
+    {
+        title: "X-Men: The Last Stand",
+        franchise: ["X-Men"],
+        director: "Brett Ratner",
+        releaseDate: "2006-05-26"
+    },
+    {
+        title: "X-Men: First Class",
+        franchise: ["X-Men"],
+        director: "Matthew Vaughn",
+        releaseDate: "2011-06-03"
+    },
+    {
+        title: "X-Men: Days of Future Past",
+        franchise: ["X-Men"],
+        director: "Bryan Singer",
+        releaseDate: "2014-05-23"
+    },
+    {
+        title: "X-Men: Apocalypse",
+        franchise: ["X-Men"],
+        director: "Bryan Singer",
+        releaseDate: "2016-05-27"
+    },
+    {
+        title: "Dark Phoenix",
+        franchise: ["X-Men"],
+        director: "Simon Kinberg",
+        releaseDate: "2019-06-07"
+    },
+    {
+        title: "X-Men Origins: Wolverine",
+        franchise: ["X-Men"],
+        director: "Gavin Hood",
+        releaseDate: "2009-05-01"
+    },
+    {
+        title: "The Wolverine",
+        franchise: ["X-Men"],
+        director: "James Mangold",
+        releaseDate: "2013-06-26"
+    },
+    {
+        title: "Logan",
+        franchise: ["X-Men"],
+        director: "James Mangold",
+        releaseDate: "2017-03-03"
+    },
+    {
+        title: "The New Mutants",
+        franchise: ["X-Men"],
+        director: "Josh Boone",
+        releaseDate: "2020-08-28"
+    },
+    {
+        title: "Deadpool",
+        franchise: ["X-Men"],
+        director: "Tim Miller",
+        releaseDate: "2016-02-12"
+    },
+    {
+        title: "Deadpool 2",
+        franchise: ["X-Men"],
+        director: "David Leitch",
+        releaseDate: "2018-05-18"
+    },
+    {
+        title: "Deadpool & Wolverine",
+        franchise: ["X-Men"],
+        director: "Shawn Levy",
+        releaseDate: "2024-06-22"
+    },
+    {
+        title: "Ghostbusters",
+        franchise: ["Ghostbusters"],
+        director: "Ivan Reitman",
+        releaseDate: "1984-06-08"
+    },
+    {
+        title: "Ghostbusters II",
+        franchise: ["Ghostbusters"],
+        director: "Ivan Reitman",
+        releaseDate: "1989-06-16"
+    },
+    {
+        title: "Ghostbusters: Afterlife",
+        franchise: ["Ghostbusters"],
+        director: "Jason Reitman",
+        releaseDate: "2021-11-19"
+    },
+    {
+        title: "Ghostbusters: Frozen Empire",
+        franchise: ["Ghostbusters"],
+        director: "Gil Kenan",
+        releaseDate: "2024-03-22"
+    },
+    {
+        title: "Ghostbusters",
+        franchise: ["Ghostbusters"],
+        director: "Paul Feig",
+        releaseDate: "2016-07-15"
+    },
+    {
+        title: "Death Wish",
+        franchise: ["Death Wish"],
+        director: "Michael Winner",
+        releaseDate: "1974-07-24"
+    },
+    {
+        title: "Death Wish II",
+        franchise: ["Death Wish"],
+        director: "Michael Winner",
+        releaseDate: "1982-02-19"
+    },
+    {
+        title: "Death Wish 3",
+        franchise: ["Death Wish"],
+        director: "Michael Winner",
+        releaseDate: "1985-11-01"
+    },
+    {
+        title: "Death Wish 4: The Crackdown",
+        franchise: ["Death Wish"],
+        director: "J. Lee Thompson",
+        releaseDate: "1987-11-06"
+    },
+    {
+        title: "Death Wish V: The Face of Death",
+        franchise: ["Death Wish"],
+        director: "Allan A. Goldtein",
+        releaseDate: "1994-01-14"
+    },
+    {
+        title: "Death Wish",
+        franchise: ["Death Wish"],
+        director: "Eli Roth",
+        releaseDate: "2018-03-02"
     }
 ];
 

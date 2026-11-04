@@ -6,23 +6,37 @@ BEGIN;
 TRUNCATE TABLE movie_franchises, movies, franchises RESTART IDENTITY CASCADE;
 
 INSERT INTO franchises (name) VALUES ('A Nightmare on Elm Street');
+INSERT INTO franchises (name) VALUES ('Air Bud');
 INSERT INTO franchises (name) VALUES ('Alien');
 INSERT INTO franchises (name) VALUES ('Batman');
 INSERT INTO franchises (name) VALUES ('Child''s Play');
 INSERT INTO franchises (name) VALUES ('DCEU');
+INSERT INTO franchises (name) VALUES ('Death Wish');
+INSERT INTO franchises (name) VALUES ('Die Hard');
 INSERT INTO franchises (name) VALUES ('Evil Dead');
+INSERT INTO franchises (name) VALUES ('Fast and Furious');
 INSERT INTO franchises (name) VALUES ('Final Destination');
 INSERT INTO franchises (name) VALUES ('Friday the 13th');
+INSERT INTO franchises (name) VALUES ('Ghostbusters');
 INSERT INTO franchises (name) VALUES ('Halloween');
+INSERT INTO franchises (name) VALUES ('Hatchet');
+INSERT INTO franchises (name) VALUES ('Hell House LLC');
+INSERT INTO franchises (name) VALUES ('Hellraiser');
 INSERT INTO franchises (name) VALUES ('Indiana Jones');
+INSERT INTO franchises (name) VALUES ('Insidious');
+INSERT INTO franchises (name) VALUES ('Jackass');
 INSERT INTO franchises (name) VALUES ('James Bond');
 INSERT INTO franchises (name) VALUES ('John Wick');
 INSERT INTO franchises (name) VALUES ('Jurassic Park');
+INSERT INTO franchises (name) VALUES ('Lethal Weapon');
 INSERT INTO franchises (name) VALUES ('MCU');
+INSERT INTO franchises (name) VALUES ('Mission: Impossible');
 INSERT INTO franchises (name) VALUES ('Paranormal Activity');
 INSERT INTO franchises (name) VALUES ('Pirates of the Caribbean');
 INSERT INTO franchises (name) VALUES ('Predator');
+INSERT INTO franchises (name) VALUES ('Rambo');
 INSERT INTO franchises (name) VALUES ('Resident Evil');
+INSERT INTO franchises (name) VALUES ('Rocky');
 INSERT INTO franchises (name) VALUES ('Saw');
 INSERT INTO franchises (name) VALUES ('Scary Movie');
 INSERT INTO franchises (name) VALUES ('Scream');
@@ -31,12 +45,23 @@ INSERT INTO franchises (name) VALUES ('Star Trek');
 INSERT INTO franchises (name) VALUES ('Star Wars');
 INSERT INTO franchises (name) VALUES ('Superman');
 INSERT INTO franchises (name) VALUES ('Terminator');
+INSERT INTO franchises (name) VALUES ('The Exorcist');
 INSERT INTO franchises (name) VALUES ('The Hunger Games');
+INSERT INTO franchises (name) VALUES ('The Matrix');
+INSERT INTO franchises (name) VALUES ('The Mummy');
+INSERT INTO franchises (name) VALUES ('The Muppets');
 INSERT INTO franchises (name) VALUES ('The Texas Chainsaw Massacre');
+INSERT INTO franchises (name) VALUES ('The Warren Files');
+INSERT INTO franchises (name) VALUES ('Tolkien''s Middle-Earth');
+INSERT INTO franchises (name) VALUES ('Toy Story');
 INSERT INTO franchises (name) VALUES ('Tremors');
 INSERT INTO franchises (name) VALUES ('Twilight');
+INSERT INTO franchises (name) VALUES ('Universal Classic Monsters');
 INSERT INTO franchises (name) VALUES ('World of Wizardry');
+INSERT INTO franchises (name) VALUES ('X-Men');
 
+INSERT INTO movies (title, director, release_date) VALUES ('2 Fast 2 Furious', 'John Singleton', '2003-06-06');
+INSERT INTO movies (title, director, release_date) VALUES ('A Good Day to Die Hard', 'John Moore', '2013-02-14');
 INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm Street', 'Wes Craven', '1984-11-09');
 INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm Street', 'Samuel Bayer', '2010-04-30');
 INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm Street 2: Freddy''s Revenge', 'Jack Sholder', '1985-11-01');
@@ -44,6 +69,13 @@ INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm S
 INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm Street 4: The Dream Master', 'Renny Harlin', '1988-08-19');
 INSERT INTO movies (title, director, release_date) VALUES ('A Nightmare on Elm Street 5: The Dream Child', 'Stephen Hopkins', '1989-08-11');
 INSERT INTO movies (title, director, release_date) VALUES ('A View to a Kill', 'John Glen', '1985-05-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Abbot and Costello Meet the Mummy', 'Charles Lamont', '1955-04-16');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud', 'Charles Martin Smith', '1997-08-01');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud Returns', 'Robert Vince', '2027-01-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud: Golden Retriver', 'Richard Martin', '1998-08-14');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud: Seventh Inning Fetch', 'Robert Vince', '2002-06-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud: Spikes Back', 'Mike Southon', '2003-06-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Air Bud: World Pup', 'Bill Bannerman', '2000-12-12');
 INSERT INTO movies (title, director, release_date) VALUES ('Alien', 'Ridley Scott', '1979-05-25');
 INSERT INTO movies (title, director, release_date) VALUES ('Alien 3', 'David Fincher', '1992-05-22');
 INSERT INTO movies (title, director, release_date) VALUES ('Alien Resurrection', 'Jean-Pierre Jeunet', '1997-11-26');
@@ -52,6 +84,9 @@ INSERT INTO movies (title, director, release_date) VALUES ('Alien vs. Predator: 
 INSERT INTO movies (title, director, release_date) VALUES ('Alien: Covenant', 'Ridley Scott', '2017-05-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Alien: Romulus', 'Fede Alvarez', '2024-08-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Aliens', 'James Cameron', '1986-06-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Annabelle', 'John R. Leonetti', '2014-10-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Annabelle Comes Home', 'Gary Dauberman', '2019-06-26');
+INSERT INTO movies (title, director, release_date) VALUES ('Annabelle: Creation', 'David F. Sandberg', '2017-08-11');
 INSERT INTO movies (title, director, release_date) VALUES ('Army of Darkness', 'Sam Raimi', '1993-02-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Batman', 'Tim Burton', '1989-06-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Batman & Robin', 'Joel Schumacher', '1997-06-12');
@@ -60,6 +95,7 @@ INSERT INTO movies (title, director, release_date) VALUES ('Batman Forever', 'Jo
 INSERT INTO movies (title, director, release_date) VALUES ('Batman Returns', 'Tim Burton', '1992-06-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Batman v Superman: Dawn of Justice', 'Zack Snyder', '2016-03-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Batman: The Movie', 'Leslie H. Martinson', '1966-07-30');
+INSERT INTO movies (title, director, release_date) VALUES ('Blood from the Mummy''s Tomb', 'Seth Holt & Michael Carreras', '1971-10-14');
 INSERT INTO movies (title, director, release_date) VALUES ('Bride of Chucky', 'Ronny Yu', '1998-10-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Casino Royale', 'Val Guest, Ken Hughes, John Huston, Joseph McGrath, Robert Parrish', '1967-04-13');
 INSERT INTO movies (title, director, release_date) VALUES ('Casino Royale', 'Martin Campbell', '2006-11-14');
@@ -67,10 +103,27 @@ INSERT INTO movies (title, director, release_date) VALUES ('Child''s Play', 'Tom
 INSERT INTO movies (title, director, release_date) VALUES ('Child''s Play', 'Lars Klevberg', '2019-06-21');
 INSERT INTO movies (title, director, release_date) VALUES ('Child''s Play 2', 'John Lafia', '1990-11-09');
 INSERT INTO movies (title, director, release_date) VALUES ('Child''s Play 3', 'Jack Bender', '1991-08-30');
+INSERT INTO movies (title, director, release_date) VALUES ('Creed', 'Ryan Coogler', '2015-11-25');
+INSERT INTO movies (title, director, release_date) VALUES ('Creed II', 'Steven Caple Jr.', '2018-11-21');
+INSERT INTO movies (title, director, release_date) VALUES ('Creed III', 'Michael B. Jordan', '2023-03-03');
 INSERT INTO movies (title, director, release_date) VALUES ('Cult of Chucky', 'Don Mancini', '2017-10-03');
 INSERT INTO movies (title, director, release_date) VALUES ('Curse of Chucky', 'Don Mancini', '2013-09-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Dark Phoenix', 'Simon Kinberg', '2019-06-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Deadpool', 'Tim Miller', '2016-02-12');
+INSERT INTO movies (title, director, release_date) VALUES ('Deadpool & Wolverine', 'Shawn Levy', '2024-06-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Deadpool 2', 'David Leitch', '2018-05-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish', 'Michael Winner', '1974-07-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish', 'Eli Roth', '2018-03-02');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish 3', 'Michael Winner', '1985-11-01');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish 4: The Crackdown', 'J. Lee Thompson', '1987-11-06');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish II', 'Michael Winner', '1982-02-19');
+INSERT INTO movies (title, director, release_date) VALUES ('Death Wish V: The Face of Death', 'Allan A. Goldtein', '1994-01-14');
 INSERT INTO movies (title, director, release_date) VALUES ('Diamonds Are Forever', 'Guy Hamilton', '1971-12-14');
 INSERT INTO movies (title, director, release_date) VALUES ('Die Another Day', 'Lee Tamahori', '2002-11-20');
+INSERT INTO movies (title, director, release_date) VALUES ('Die Hard', 'John McTiernan', '1988-07-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Die Hard 2', 'Renny Harlin', '1990-07-04');
+INSERT INTO movies (title, director, release_date) VALUES ('Die Hard with a Vengeance', 'John McTiernan', '1995-05-19');
+INSERT INTO movies (title, director, release_date) VALUES ('Dominion: Prequel to the Exorcist', 'Paul Schrader', '2005-05-20');
 INSERT INTO movies (title, director, release_date) VALUES ('Dr. No', 'Terence Young', '1962-10-05');
 INSERT INTO movies (title, director, release_date) VALUES ('Episode I - The Phantom Menace', 'George Lucas', '1999-05-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Episode II - Attack of the Clones', 'George Lucas', '2002-05-16');
@@ -85,14 +138,22 @@ INSERT INTO movies (title, director, release_date) VALUES ('Evil Dead', 'Fede Al
 INSERT INTO movies (title, director, release_date) VALUES ('Evil Dead Burn', 'Sebastien Vanicek', '2026-04-07');
 INSERT INTO movies (title, director, release_date) VALUES ('Evil Dead II', 'Sam Raimi', '1987-03-13');
 INSERT INTO movies (title, director, release_date) VALUES ('Evil Dead Rise', 'Lee Cronin', '2023-04-21');
+INSERT INTO movies (title, director, release_date) VALUES ('Exorcist II: The Heretic', 'John Boorman', '1977-06-17');
+INSERT INTO movies (title, director, release_date) VALUES ('Exorcist: The Beginning', 'Renny Harlin', '2004-08-20');
+INSERT INTO movies (title, director, release_date) VALUES ('F9', 'Justin Lin', '2021-06-25');
 INSERT INTO movies (title, director, release_date) VALUES ('Fantastic Beasts and Where to Find Them', 'David Yates', '2016-11-18');
 INSERT INTO movies (title, director, release_date) VALUES ('Fantastic Beasts: The Crimes of Grindelwald', 'David Yates', '2018-11-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Fantastic Beasts: The Secrets of Dumbledore', 'David Yates', '2022-04-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Fast & Furious', 'Justin Lin', '2009-04-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Fast & Furious 6', 'Justin Lin', '2013-05-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Fast Five', 'Justin Lin', '2011-04-29');
+INSERT INTO movies (title, director, release_date) VALUES ('Fast X', 'Louis Leterrier', '2023-05-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Final Destination', 'James Wong', '2000-03-17');
 INSERT INTO movies (title, director, release_date) VALUES ('Final Destination 2', 'David R. Ellis', '2003-01-31');
 INSERT INTO movies (title, director, release_date) VALUES ('Final Destination 3', 'James Wong', '2006-02-10');
 INSERT INTO movies (title, director, release_date) VALUES ('Final Destination 5', 'Steven Quale', '2011-08-12');
 INSERT INTO movies (title, director, release_date) VALUES ('Final Destination Bloodlines', 'Adam Stein & Zach Lipovsky', '2025-05-16');
+INSERT INTO movies (title, director, release_date) VALUES ('First Blood', 'Ted Kotcheff', '1982-10-22');
 INSERT INTO movies (title, director, release_date) VALUES ('For Your Eyes Only', 'John Glen', '1981-06-24');
 INSERT INTO movies (title, director, release_date) VALUES ('Freddy vs Jason', 'Ronny Yu', '2003-08-15');
 INSERT INTO movies (title, director, release_date) VALUES ('Freddy''s Dead: The Final Nightmare', 'Rachel Talalay', '1991-09-13');
@@ -107,6 +168,12 @@ INSERT INTO movies (title, director, release_date) VALUES ('Friday the 13th: A N
 INSERT INTO movies (title, director, release_date) VALUES ('Friday the 13th: The Final Chapter', 'Joseph Zito', '1984-04-13');
 INSERT INTO movies (title, director, release_date) VALUES ('From Russia With Love', 'Terence Young', '1963-10-10');
 INSERT INTO movies (title, director, release_date) VALUES ('From the World of John Wick: Ballerina', 'Len Wiseman', '2025-06-06');
+INSERT INTO movies (title, director, release_date) VALUES ('Furious 7', 'James Wan', '2015-04-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Ghostbusters', 'Ivan Reitman', '1984-06-08');
+INSERT INTO movies (title, director, release_date) VALUES ('Ghostbusters', 'Paul Feig', '2016-07-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Ghostbusters II', 'Ivan Reitman', '1989-06-16');
+INSERT INTO movies (title, director, release_date) VALUES ('Ghostbusters: Afterlife', 'Jason Reitman', '2021-11-19');
+INSERT INTO movies (title, director, release_date) VALUES ('Ghostbusters: Frozen Empire', 'Gil Kenan', '2024-03-22');
 INSERT INTO movies (title, director, release_date) VALUES ('GoldenEye', 'Martin Campbell', '1995-11-13');
 INSERT INTO movies (title, director, release_date) VALUES ('Goldfinger', 'Guy Hamilton', '1964-09-17');
 INSERT INTO movies (title, director, release_date) VALUES ('Halloween', 'John Carpenter', '1978-10-25');
@@ -130,13 +197,46 @@ INSERT INTO movies (title, director, release_date) VALUES ('Harry Potter and the
 INSERT INTO movies (title, director, release_date) VALUES ('Harry Potter and the Order of the Phoenix', 'David Yates', '2007-07-11');
 INSERT INTO movies (title, director, release_date) VALUES ('Harry Potter and the Philosopher''s Stone', 'Chris Columbus', '2001-11-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Harry Potter and the Prisoner of Azkaban', 'Alfonso Cuaron', '2004-05-31');
+INSERT INTO movies (title, director, release_date) VALUES ('Hatchet', 'Adam Green', '2007-09-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Hatchet II', 'Adam Green', '2010-10-01');
+INSERT INTO movies (title, director, release_date) VALUES ('Hatchet III', 'B.J. McDonnell', '2013-06-14');
+INSERT INTO movies (title, director, release_date) VALUES ('Hell House LLC', 'Stephen Cognetti', '2015-10-16');
+INSERT INTO movies (title, director, release_date) VALUES ('Hell House LLC II: The Abaddon Hotel', 'Stephen Cognetti', '2018-09-20');
+INSERT INTO movies (title, director, release_date) VALUES ('Hell House LLC III: Lake of Fire', 'Stephen Cognetti', '2019-09-19');
+INSERT INTO movies (title, director, release_date) VALUES ('Hell House LLC Origins: The Carmichael Manor', 'Stephen Cognetti', '2023-10-30');
+INSERT INTO movies (title, director, release_date) VALUES ('Hell House LLC: Lineage', 'Stephen Cognetti', '2025-08-20');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellbound: Hellraiser II', 'Tony Randel', '1988-12-23');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser', 'Clive Barker', '1987-09-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser', 'David Bruckner', '2022-10-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser III: Hell on Earth', 'Anthony Hickox', '1992-09-11');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Bloodline', 'Kevin Yagher', '1996-03-08');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Deader', 'Rick Bota', '2005-06-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Hellseeker', 'Rick Bota', '2002-10-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Hellworld', 'Rick Bota', '2005-09-06');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Inferno', 'Scott Derrickson', '2000-10-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Judgment', 'Gary J. Tunnicliffe', '2018-02-13');
+INSERT INTO movies (title, director, release_date) VALUES ('Hellraiser: Revelations', 'Victor Garcia', '2011-03-18');
 INSERT INTO movies (title, director, release_date) VALUES ('Indiana Jones and the Dial of Destiny', 'James Mangold', '2023-06-30');
 INSERT INTO movies (title, director, release_date) VALUES ('Indiana Jones and the Kingdom of the Crystal Skull', 'Steven Spielberg', '2008-05-22');
 INSERT INTO movies (title, director, release_date) VALUES ('Indiana Jones and the Last Crusade', 'Steven Spielberg', '1989-05-24');
 INSERT INTO movies (title, director, release_date) VALUES ('Indiana Jones and the Temple of Doom', 'Steven Spielberg', '1984-05-23');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious', 'James Wan', '2011-04-01');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious: Chapter 2', 'James Wan', '2013-09-13');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious: Chapter 3', 'Leigh Whannell', '2015-06-05');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious: Out of the Further', 'Jacob Chase', '2026-08-21');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious: The Last Key', 'Adam Robitel', '2018-01-05');
+INSERT INTO movies (title, director, release_date) VALUES ('Insidious: The Red Door', 'Patrick Wilson', '2023-07-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass 3D', 'Jeff Tremaine', '2010-10-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass Forever', 'Jeff Tremaine', '2022-02-01');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass Number Two', 'Jeff Tremaine', '2006-09-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass Presents: Bad Grandpa', 'Jeff Tremaine', '2013-10-25');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass Presents: Matt Hoffman''s Tribute to Evel Knievel', 'Jeff Tremaine', '2008-05-27');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass: Best and Last', 'Jeff Tremaine', '2026-06-26');
+INSERT INTO movies (title, director, release_date) VALUES ('Jackass: The Movie', 'Jeff Tremaine', '2002-10-25');
 INSERT INTO movies (title, director, release_date) VALUES ('Jason Goes to Hell: The Final Friday', 'Adam Marcus', '1993-08-13');
 INSERT INTO movies (title, director, release_date) VALUES ('Jason X', 'James Isaac', '2002-04-26');
 INSERT INTO movies (title, director, release_date) VALUES ('Jigsaw', 'The Spierig Brothers', '2017-10-27');
+INSERT INTO movies (title, director, release_date) VALUES ('John Rambo', 'Jalmari Helander', '2027-06-04');
 INSERT INTO movies (title, director, release_date) VALUES ('John Wick', 'Chad Stahelski', '2014-10-24');
 INSERT INTO movies (title, director, release_date) VALUES ('John Wick: Chapter 2', 'Chad Stahelski', '2017-02-10');
 INSERT INTO movies (title, director, release_date) VALUES ('John Wick: Chapter 3 - Parabellum', 'Chad Stahelski', '2019-05-17');
@@ -150,9 +250,31 @@ INSERT INTO movies (title, director, release_date) VALUES ('Jurassic World: Fall
 INSERT INTO movies (title, director, release_date) VALUES ('Justice League', 'Zack Snyder', '2017-11-13');
 INSERT INTO movies (title, director, release_date) VALUES ('Leatherface', 'Julien Maury & Alexandre Bustillo', '2017-10-20');
 INSERT INTO movies (title, director, release_date) VALUES ('Leatherface: The Texas Chainsaw Massacre III', 'Jeff Burr', '1990-01-12');
+INSERT INTO movies (title, director, release_date) VALUES ('Lee Cronin''s The Mummy', 'Lee Cronin', '2026-04-17');
+INSERT INTO movies (title, director, release_date) VALUES ('Lethal Weapon', 'Richard Donner', '1987-03-06');
+INSERT INTO movies (title, director, release_date) VALUES ('Lethal Weapon 2', 'Richard Donner', '1989-07-07');
+INSERT INTO movies (title, director, release_date) VALUES ('Lethal Weapon 3', 'Richard Donner', '1992-05-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Lethal Weapon 4', 'Richard Donner', '1998-07-10');
 INSERT INTO movies (title, director, release_date) VALUES ('Licence to Kill', 'John Glen', '1989-06-13');
+INSERT INTO movies (title, director, release_date) VALUES ('Lightyear', 'Angus MacLane', '2022-06-17');
+INSERT INTO movies (title, director, release_date) VALUES ('Live Free or Die Hard', 'Len Wiseman', '2007-06-27');
 INSERT INTO movies (title, director, release_date) VALUES ('Live and Let Die', 'Guy Hamilton', '1973-06-27');
+INSERT INTO movies (title, director, release_date) VALUES ('Logan', 'James Mangold', '2017-03-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Lord of the Rings: The Fellowship of the Ring', 'Peter Jackson', '2001-12-19');
+INSERT INTO movies (title, director, release_date) VALUES ('Lord of the Rings: The Return of the King', 'Peter Jackson', '2003-12-17');
+INSERT INTO movies (title, director, release_date) VALUES ('Lord of the Rings: The Two Towers', 'Peter Jackson', '2002-12-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible', 'Brian De Palma', '1996-05-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible - Dead Reckoning Part One', 'Christopher McQuarrie', '2023-07-12');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible - Fallout', 'Christopher McQuarrie', '2018-07-27');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible - Ghost Protocol', 'Brad Bird', '2011-12-16');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible - Rogue Nation', 'Christopher McQuarrie', '2015-07-31');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible - The Final Reckoning', 'Christopher McQuarrie', '2025-05-23');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible 2', 'John Woo', '2000-05-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Mission: Impossible III', 'J.J. Abrams', '2006-05-05');
 INSERT INTO movies (title, director, release_date) VALUES ('Moonraker', 'Lewis Gilbert', '1979-06-26');
+INSERT INTO movies (title, director, release_date) VALUES ('Muppet Treasure Island', 'Brian Henson', '1996-02-16');
+INSERT INTO movies (title, director, release_date) VALUES ('Muppets Most Wanted', 'James Bobin', '2014-03-11');
+INSERT INTO movies (title, director, release_date) VALUES ('Muppets from Space', 'Tim Hill', '1999-07-14');
 INSERT INTO movies (title, director, release_date) VALUES ('Never Say Never Again', 'Irvin Kershner', '1983-10-07');
 INSERT INTO movies (title, director, release_date) VALUES ('No Time to Die', 'Cary Joji Fukunaga', '2021-09-28');
 INSERT INTO movies (title, director, release_date) VALUES ('Octopussy', 'John Glen', '1983-06-06');
@@ -178,6 +300,9 @@ INSERT INTO movies (title, director, release_date) VALUES ('Prey', 'Dan Trachten
 INSERT INTO movies (title, director, release_date) VALUES ('Prometheus', 'Ridley Scott', '2012-06-08');
 INSERT INTO movies (title, director, release_date) VALUES ('Quantum of Solace', 'Marc Forster', '2008-10-29');
 INSERT INTO movies (title, director, release_date) VALUES ('Raiders of the Lost Ark', 'Steven Spielberg', '1981-06-12');
+INSERT INTO movies (title, director, release_date) VALUES ('Rambo', 'Sylvester Stallone', '2008-01-25');
+INSERT INTO movies (title, director, release_date) VALUES ('Rambo III', 'Peter MacDonald', '1988-05-25');
+INSERT INTO movies (title, director, release_date) VALUES ('Rambo: First Blood Part II', 'George P. Cosmatos', '1985-05-22');
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil', 'Paul W.S. Anderson', '2002-03-15');
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil', 'Zach Cregger', '2026-09-18');
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil: Afterlife', 'Paul W.S. Anderson', '2010-09-10');
@@ -186,6 +311,12 @@ INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil: Extin
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil: Retribution', 'Paul W.S. Anderson', '2012-09-14');
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil: The Final Chapter', 'Paul W.S. Anderson', '2017-01-27');
 INSERT INTO movies (title, director, release_date) VALUES ('Resident Evil: Welcome to Raccoon City', 'Johannes Roberts', '2021-11-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky', 'John G. Avildsen', '1976-12-03');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky Balboa', 'Sylvester Stallone', '2006-12-20');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky II', 'Sylvester Stallone', '1979-06-15');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky III', 'Sylvester Stallone', '1982-05-28');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky IV', 'Sylvester Stallone', '1985-11-27');
+INSERT INTO movies (title, director, release_date) VALUES ('Rocky V', 'John G. Avildsen', '1990-11-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Rogue One: A Star Wars Story', 'Gareth Edwards', '2016-12-16');
 INSERT INTO movies (title, director, release_date) VALUES ('Saw', 'James Wan', '2004-10-29');
 INSERT INTO movies (title, director, release_date) VALUES ('Saw 3D', 'Kevin Greutert', '2010-10-29');
@@ -244,12 +375,29 @@ INSERT INTO movies (title, director, release_date) VALUES ('Texas Chainsaw 3D', 
 INSERT INTO movies (title, director, release_date) VALUES ('Texas Chainsaw Massacre', 'David Blue Garcia', '2022-02-18');
 INSERT INTO movies (title, director, release_date) VALUES ('The Amazing Spider-Man', 'Marc Webb', '2012-06-13');
 INSERT INTO movies (title, director, release_date) VALUES ('The Amazing Spider-Man 2', 'Marc Webb', '2014-03-31');
+INSERT INTO movies (title, director, release_date) VALUES ('The Animatrix', 'Anthology', '2003-06-03');
 INSERT INTO movies (title, director, release_date) VALUES ('The Batman', 'Matt Reeves', '2022-03-01');
 INSERT INTO movies (title, director, release_date) VALUES ('The Clone Wars', 'Dave Filoni', '2008-08-15');
+INSERT INTO movies (title, director, release_date) VALUES ('The Conjuring', 'James Wan', '2013-07-19');
+INSERT INTO movies (title, director, release_date) VALUES ('The Conjuring 2', 'James Wan', '2016-06-10');
+INSERT INTO movies (title, director, release_date) VALUES ('The Conjuring: Last Rites', 'Michael Chaves', '2025-09-05');
+INSERT INTO movies (title, director, release_date) VALUES ('The Conjuring: The Devil Made Me Do It', 'Michael Chaves', '2021-06-04');
+INSERT INTO movies (title, director, release_date) VALUES ('The Curse of the Mummy''s Tomb', 'Michael Carreras', '1964-10-18');
 INSERT INTO movies (title, director, release_date) VALUES ('The Dark Knight', 'Christopher Nolan', '2008-07-14');
 INSERT INTO movies (title, director, release_date) VALUES ('The Dark Knight Rises', 'Christopher Nolan', '2012-07-16');
 INSERT INTO movies (title, director, release_date) VALUES ('The Evil Dead', 'Sam Raimi', '1981-10-15');
+INSERT INTO movies (title, director, release_date) VALUES ('The Exorcist', 'William Friedkin', '1973-12-26');
+INSERT INTO movies (title, director, release_date) VALUES ('The Exorcist III', 'William Peter Blatty', '1990-08-17');
+INSERT INTO movies (title, director, release_date) VALUES ('The Exorcist: Believer', 'David Gordon Green', '2023-10-06');
+INSERT INTO movies (title, director, release_date) VALUES ('The Exorcist: Martyrs', 'Mike Flanagan', '2027-03-12');
+INSERT INTO movies (title, director, release_date) VALUES ('The Fast and the Furious', 'Rob Cohen', '2001-06-22');
+INSERT INTO movies (title, director, release_date) VALUES ('The Fast and the Furious: Tokyo Drift', 'Justin Lin', '2006-06-16');
+INSERT INTO movies (title, director, release_date) VALUES ('The Fate of the Furious', 'F. Gary Gray', '2017-04-14');
 INSERT INTO movies (title, director, release_date) VALUES ('The Final Destination', 'David R. Ellis', '2009-08-28');
+INSERT INTO movies (title, director, release_date) VALUES ('The Great Muppet Caper', 'Jim Henson', '1981-06-26');
+INSERT INTO movies (title, director, release_date) VALUES ('The Hobbit: An Unexpected Journey', 'Peter Jackson', '2012-12-14');
+INSERT INTO movies (title, director, release_date) VALUES ('The Hobbit: The Battle of the Five Armies', 'Peter Jackson', '2014-12-17');
+INSERT INTO movies (title, director, release_date) VALUES ('The Hobbit: The Desolation of Smaug', 'Peter Jackson', '2013-12-13');
 INSERT INTO movies (title, director, release_date) VALUES ('The Hunger Games', 'Gary Ross', '2012-03-23');
 INSERT INTO movies (title, director, release_date) VALUES ('The Hunger Games: Catching Fire', 'Francis Lawrence', '2013-11-22');
 INSERT INTO movies (title, director, release_date) VALUES ('The Hunger Games: Mockingjay - Part 1', 'Francis Lawrence', '2014-11-21');
@@ -260,6 +408,29 @@ INSERT INTO movies (title, director, release_date) VALUES ('The Living Daylights
 INSERT INTO movies (title, director, release_date) VALUES ('The Lost World: Jurassic Park', 'Steven Spielberg', '1997-05-23');
 INSERT INTO movies (title, director, release_date) VALUES ('The Man with the Golden Gun', 'Guy Hamilton', '1974-12-18');
 INSERT INTO movies (title, director, release_date) VALUES ('The Mandalorian and Grogu', 'Jon Favreau', '2026-05-22');
+INSERT INTO movies (title, director, release_date) VALUES ('The Matrix', 'The Wachowskis', '1999-03-31');
+INSERT INTO movies (title, director, release_date) VALUES ('The Matrix Reloaded', 'The Wachowskis', '2003-05-15');
+INSERT INTO movies (title, director, release_date) VALUES ('The Matrix Resurrections', 'Lana Wachowski', '2021-12-22');
+INSERT INTO movies (title, director, release_date) VALUES ('The Matrix Revolutions', 'The Wachowskis', '2003-11-05');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy', 'Karl Freund', '1932-12-22');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy', 'Terence Fisher', '1959-09-25');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy', 'Stephen Sommers', '1999-05-07');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy', 'Alex Kurtzman', '2017-06-09');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy Returns', 'Stephen Sommers', '2001-05-04');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy''s Curse', 'Leslie Goodwins', '1944-12-22');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy''s Ghost', 'Reginald LeBorg', '1944-07-07');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy''s Hand', 'Christy Cabanne', '1940-09-20');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy''s Shroud', 'John Gilling', '1967-03-15');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy''s Tomb', 'Harold Young', '1942-10-23');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy: Book of the Dead', 'Matt Bettinelli-Olpin, Tyler Gillett', '2027-10-15');
+INSERT INTO movies (title, director, release_date) VALUES ('The Mummy: Tomb of the Dragon Emperor', 'Rob Cohen', '2008-08-01');
+INSERT INTO movies (title, director, release_date) VALUES ('The Muppet Christmas Carol', 'Brian Henson', '1992-12-11');
+INSERT INTO movies (title, director, release_date) VALUES ('The Muppet Movie', 'James Frawley', '1979-05-31');
+INSERT INTO movies (title, director, release_date) VALUES ('The Muppets', 'James Bobin', '2011-11-04');
+INSERT INTO movies (title, director, release_date) VALUES ('The Muppets Take Manhattan', 'Frank Oz', '1984-07-13');
+INSERT INTO movies (title, director, release_date) VALUES ('The New Mutants', 'Josh Boone', '2020-08-28');
+INSERT INTO movies (title, director, release_date) VALUES ('The Nun', 'Corin Hardy', '2018-09-07');
+INSERT INTO movies (title, director, release_date) VALUES ('The Nun II', 'Michael Chaves', '2023-09-08');
 INSERT INTO movies (title, director, release_date) VALUES ('The Predator', 'Shane Black', '2018-09-14');
 INSERT INTO movies (title, director, release_date) VALUES ('The Return of the Texas Chainsaw Massacre', 'Kim Henkel', '1995-09-22');
 INSERT INTO movies (title, director, release_date) VALUES ('The Spy Who Loved Me', 'Lewis Gilbert', '1977-07-07');
@@ -272,9 +443,15 @@ INSERT INTO movies (title, director, release_date) VALUES ('The Twilight Saga: B
 INSERT INTO movies (title, director, release_date) VALUES ('The Twilight Saga: Breaking Dawn - Part 2', 'Bill Condon', '2012-11-16');
 INSERT INTO movies (title, director, release_date) VALUES ('The Twilight Saga: Eclipse', 'David Slade', '2010-06-30');
 INSERT INTO movies (title, director, release_date) VALUES ('The Twilight Saga: New Moon', 'Chris Weitz', '2009-11-20');
+INSERT INTO movies (title, director, release_date) VALUES ('The Wolverine', 'James Mangold', '2013-06-26');
 INSERT INTO movies (title, director, release_date) VALUES ('The World Is Not Enough', 'Michael Apted', '1999-11-08');
 INSERT INTO movies (title, director, release_date) VALUES ('Thunderball', 'Terence Young', '1965-12-09');
 INSERT INTO movies (title, director, release_date) VALUES ('Tomorrow Never Dies', 'Roger Spottiswoode', '1997-12-09');
+INSERT INTO movies (title, director, release_date) VALUES ('Toy Story', 'John Lasseter', '1995-11-22');
+INSERT INTO movies (title, director, release_date) VALUES ('Toy Story 2', 'John Lasseter', '1999-11-24');
+INSERT INTO movies (title, director, release_date) VALUES ('Toy Story 3', 'Lee Unkrich', '2010-06-18');
+INSERT INTO movies (title, director, release_date) VALUES ('Toy Story 4', 'Josh Cooley', '2019-06-21');
+INSERT INTO movies (title, director, release_date) VALUES ('Toy Story 5', 'Andrew Stanton', '2026-06-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Tremors', 'Ron Underwood', '1990-01-19');
 INSERT INTO movies (title, director, release_date) VALUES ('Tremors 2: Aftershocks', 'S.S. Wilson', '1996-04-09');
 INSERT INTO movies (title, director, release_date) VALUES ('Tremors 3: Back to Perfection', 'Brent Maddock', '2001-10-02');
@@ -283,8 +460,32 @@ INSERT INTO movies (title, director, release_date) VALUES ('Tremors 5: Bloodline
 INSERT INTO movies (title, director, release_date) VALUES ('Tremors: A Cold Day in Hell', 'Don Michael Paul', '2018-05-01');
 INSERT INTO movies (title, director, release_date) VALUES ('Tremors: Shrieker Island', 'Don Michael Paul', '2020-10-20');
 INSERT INTO movies (title, director, release_date) VALUES ('Twilight', 'Catherine Hardwicke', '2008-11-21');
+INSERT INTO movies (title, director, release_date) VALUES ('Victor Crowley', 'Adam Green', '2017-08-22');
 INSERT INTO movies (title, director, release_date) VALUES ('Wes Craven''s New Nightmare', 'Wes Craven', '1994-10-14');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men', 'Bryan Singer', '2000-07-14');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men Origins: Wolverine', 'Gavin Hood', '2009-05-01');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men: Apocalypse', 'Bryan Singer', '2016-05-27');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men: Days of Future Past', 'Bryan Singer', '2014-05-23');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men: First Class', 'Matthew Vaughn', '2011-06-03');
+INSERT INTO movies (title, director, release_date) VALUES ('X-Men: The Last Stand', 'Brett Ratner', '2006-05-26');
+INSERT INTO movies (title, director, release_date) VALUES ('X2', 'Bryan Singer', '2003-05-02');
 INSERT INTO movies (title, director, release_date) VALUES ('You Only Live Twice', 'Lewis Gilbert', '1967-06-12');
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = '2 Fast 2 Furious'
+  AND m.release_date = '2003-06-06'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'A Good Day to Die Hard'
+  AND m.release_date = '2013-02-14'
+  AND f.name = 'Die Hard';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -341,6 +542,70 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'A View to a Kill'
   AND m.release_date = '1985-05-22'
   AND f.name = 'James Bond';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Abbot and Costello Meet the Mummy'
+  AND m.release_date = '1955-04-16'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Abbot and Costello Meet the Mummy'
+  AND m.release_date = '1955-04-16'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud'
+  AND m.release_date = '1997-08-01'
+  AND f.name = 'Air Bud';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud Returns'
+  AND m.release_date = '2027-01-22'
+  AND f.name = 'Air Bud';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud: Golden Retriver'
+  AND m.release_date = '1998-08-14'
+  AND f.name = 'Air Bud';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud: Seventh Inning Fetch'
+  AND m.release_date = '2002-06-18'
+  AND f.name = 'Air Bud';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud: Spikes Back'
+  AND m.release_date = '2003-06-24'
+  AND f.name = 'Air Bud';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Air Bud: World Pup'
+  AND m.release_date = '2000-12-12'
+  AND f.name = 'Air Bud';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -426,6 +691,30 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Annabelle'
+  AND m.release_date = '2014-10-03'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Annabelle Comes Home'
+  AND m.release_date = '2019-06-26'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Annabelle: Creation'
+  AND m.release_date = '2017-08-11'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Army of Darkness'
   AND m.release_date = '1993-02-19'
   AND f.name = 'Evil Dead';
@@ -506,6 +795,14 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Blood from the Mummy''s Tomb'
+  AND m.release_date = '1971-10-14'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Bride of Chucky'
   AND m.release_date = '1998-10-16'
   AND f.name = 'Child''s Play';
@@ -562,6 +859,30 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Creed'
+  AND m.release_date = '2015-11-25'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Creed II'
+  AND m.release_date = '2018-11-21'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Creed III'
+  AND m.release_date = '2023-03-03'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Cult of Chucky'
   AND m.release_date = '2017-10-03'
   AND f.name = 'Child''s Play';
@@ -578,6 +899,86 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Dark Phoenix'
+  AND m.release_date = '2019-06-07'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Deadpool'
+  AND m.release_date = '2016-02-12'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Deadpool & Wolverine'
+  AND m.release_date = '2024-06-22'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Deadpool 2'
+  AND m.release_date = '2018-05-18'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish'
+  AND m.release_date = '1974-07-24'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish'
+  AND m.release_date = '2018-03-02'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish 3'
+  AND m.release_date = '1985-11-01'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish 4: The Crackdown'
+  AND m.release_date = '1987-11-06'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish II'
+  AND m.release_date = '1982-02-19'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Death Wish V: The Face of Death'
+  AND m.release_date = '1994-01-14'
+  AND f.name = 'Death Wish';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Diamonds Are Forever'
   AND m.release_date = '1971-12-14'
   AND f.name = 'James Bond';
@@ -589,6 +990,38 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Die Another Day'
   AND m.release_date = '2002-11-20'
   AND f.name = 'James Bond';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Die Hard'
+  AND m.release_date = '1988-07-15'
+  AND f.name = 'Die Hard';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Die Hard 2'
+  AND m.release_date = '1990-07-04'
+  AND f.name = 'Die Hard';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Die Hard with a Vengeance'
+  AND m.release_date = '1995-05-19'
+  AND f.name = 'Die Hard';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Dominion: Prequel to the Exorcist'
+  AND m.release_date = '2005-05-20'
+  AND f.name = 'The Exorcist';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -706,6 +1139,30 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Exorcist II: The Heretic'
+  AND m.release_date = '1977-06-17'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Exorcist: The Beginning'
+  AND m.release_date = '2004-08-20'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'F9'
+  AND m.release_date = '2021-06-25'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Fantastic Beasts and Where to Find Them'
   AND m.release_date = '2016-11-18'
   AND f.name = 'World of Wizardry';
@@ -725,6 +1182,38 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Fantastic Beasts: The Secrets of Dumbledore'
   AND m.release_date = '2022-04-15'
   AND f.name = 'World of Wizardry';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Fast & Furious'
+  AND m.release_date = '2009-04-03'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Fast & Furious 6'
+  AND m.release_date = '2013-05-24'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Fast Five'
+  AND m.release_date = '2011-04-29'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Fast X'
+  AND m.release_date = '2023-05-19'
+  AND f.name = 'Fast and Furious';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -765,6 +1254,14 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Final Destination Bloodlines'
   AND m.release_date = '2025-05-16'
   AND f.name = 'Final Destination';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'First Blood'
+  AND m.release_date = '1982-10-22'
+  AND f.name = 'Rambo';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -885,6 +1382,54 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'From the World of John Wick: Ballerina'
   AND m.release_date = '2025-06-06'
   AND f.name = 'John Wick';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Furious 7'
+  AND m.release_date = '2015-04-03'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Ghostbusters'
+  AND m.release_date = '1984-06-08'
+  AND f.name = 'Ghostbusters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Ghostbusters'
+  AND m.release_date = '2016-07-15'
+  AND f.name = 'Ghostbusters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Ghostbusters II'
+  AND m.release_date = '1989-06-16'
+  AND f.name = 'Ghostbusters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Ghostbusters: Afterlife'
+  AND m.release_date = '2021-11-19'
+  AND f.name = 'Ghostbusters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Ghostbusters: Frozen Empire'
+  AND m.release_date = '2024-03-22'
+  AND f.name = 'Ghostbusters';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -1074,6 +1619,158 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Hatchet'
+  AND m.release_date = '2007-09-07'
+  AND f.name = 'Hatchet';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hatchet II'
+  AND m.release_date = '2010-10-01'
+  AND f.name = 'Hatchet';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hatchet III'
+  AND m.release_date = '2013-06-14'
+  AND f.name = 'Hatchet';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hell House LLC'
+  AND m.release_date = '2015-10-16'
+  AND f.name = 'Hell House LLC';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hell House LLC II: The Abaddon Hotel'
+  AND m.release_date = '2018-09-20'
+  AND f.name = 'Hell House LLC';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hell House LLC III: Lake of Fire'
+  AND m.release_date = '2019-09-19'
+  AND f.name = 'Hell House LLC';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hell House LLC Origins: The Carmichael Manor'
+  AND m.release_date = '2023-10-30'
+  AND f.name = 'Hell House LLC';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hell House LLC: Lineage'
+  AND m.release_date = '2025-08-20'
+  AND f.name = 'Hell House LLC';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellbound: Hellraiser II'
+  AND m.release_date = '1988-12-23'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser'
+  AND m.release_date = '1987-09-18'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser'
+  AND m.release_date = '2022-10-07'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser III: Hell on Earth'
+  AND m.release_date = '1992-09-11'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Bloodline'
+  AND m.release_date = '1996-03-08'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Deader'
+  AND m.release_date = '2005-06-07'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Hellseeker'
+  AND m.release_date = '2002-10-15'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Hellworld'
+  AND m.release_date = '2005-09-06'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Inferno'
+  AND m.release_date = '2000-10-03'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Judgment'
+  AND m.release_date = '2018-02-13'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Hellraiser: Revelations'
+  AND m.release_date = '2011-03-18'
+  AND f.name = 'Hellraiser';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Indiana Jones and the Dial of Destiny'
   AND m.release_date = '2023-06-30'
   AND f.name = 'Indiana Jones';
@@ -1106,6 +1803,110 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious'
+  AND m.release_date = '2011-04-01'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious: Chapter 2'
+  AND m.release_date = '2013-09-13'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious: Chapter 3'
+  AND m.release_date = '2015-06-05'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious: Out of the Further'
+  AND m.release_date = '2026-08-21'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious: The Last Key'
+  AND m.release_date = '2018-01-05'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Insidious: The Red Door'
+  AND m.release_date = '2023-07-07'
+  AND f.name = 'Insidious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass 3D'
+  AND m.release_date = '2010-10-15'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass Forever'
+  AND m.release_date = '2022-02-01'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass Number Two'
+  AND m.release_date = '2006-09-22'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass Presents: Bad Grandpa'
+  AND m.release_date = '2013-10-25'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass Presents: Matt Hoffman''s Tribute to Evel Knievel'
+  AND m.release_date = '2008-05-27'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass: Best and Last'
+  AND m.release_date = '2026-06-26'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Jackass: The Movie'
+  AND m.release_date = '2002-10-25'
+  AND f.name = 'Jackass';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Jason Goes to Hell: The Final Friday'
   AND m.release_date = '1993-08-13'
   AND f.name = 'Friday the 13th';
@@ -1125,6 +1926,14 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Jigsaw'
   AND m.release_date = '2017-10-27'
   AND f.name = 'Saw';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'John Rambo'
+  AND m.release_date = '2027-06-04'
+  AND f.name = 'Rambo';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -1250,9 +2059,65 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Lee Cronin''s The Mummy'
+  AND m.release_date = '2026-04-17'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lethal Weapon'
+  AND m.release_date = '1987-03-06'
+  AND f.name = 'Lethal Weapon';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lethal Weapon 2'
+  AND m.release_date = '1989-07-07'
+  AND f.name = 'Lethal Weapon';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lethal Weapon 3'
+  AND m.release_date = '1992-05-15'
+  AND f.name = 'Lethal Weapon';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lethal Weapon 4'
+  AND m.release_date = '1998-07-10'
+  AND f.name = 'Lethal Weapon';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Licence to Kill'
   AND m.release_date = '1989-06-13'
   AND f.name = 'James Bond';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lightyear'
+  AND m.release_date = '2022-06-17'
+  AND f.name = 'Toy Story';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Live Free or Die Hard'
+  AND m.release_date = '2007-06-27'
+  AND f.name = 'Die Hard';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -1266,9 +2131,129 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Logan'
+  AND m.release_date = '2017-03-03'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lord of the Rings: The Fellowship of the Ring'
+  AND m.release_date = '2001-12-19'
+  AND f.name = 'Tolkien''s Middle-Earth';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lord of the Rings: The Return of the King'
+  AND m.release_date = '2003-12-17'
+  AND f.name = 'Tolkien''s Middle-Earth';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Lord of the Rings: The Two Towers'
+  AND m.release_date = '2002-12-18'
+  AND f.name = 'Tolkien''s Middle-Earth';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible'
+  AND m.release_date = '1996-05-22'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible - Dead Reckoning Part One'
+  AND m.release_date = '2023-07-12'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible - Fallout'
+  AND m.release_date = '2018-07-27'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible - Ghost Protocol'
+  AND m.release_date = '2011-12-16'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible - Rogue Nation'
+  AND m.release_date = '2015-07-31'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible - The Final Reckoning'
+  AND m.release_date = '2025-05-23'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible 2'
+  AND m.release_date = '2000-05-24'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Mission: Impossible III'
+  AND m.release_date = '2006-05-05'
+  AND f.name = 'Mission: Impossible';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Moonraker'
   AND m.release_date = '1979-06-26'
   AND f.name = 'James Bond';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Muppet Treasure Island'
+  AND m.release_date = '1996-02-16'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Muppets Most Wanted'
+  AND m.release_date = '2014-03-11'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Muppets from Space'
+  AND m.release_date = '1999-07-14'
+  AND f.name = 'The Muppets';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -1474,6 +2459,30 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Rambo'
+  AND m.release_date = '2008-01-25'
+  AND f.name = 'Rambo';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rambo III'
+  AND m.release_date = '1988-05-25'
+  AND f.name = 'Rambo';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rambo: First Blood Part II'
+  AND m.release_date = '1985-05-22'
+  AND f.name = 'Rambo';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Resident Evil'
   AND m.release_date = '2002-03-15'
   AND f.name = 'Resident Evil';
@@ -1533,6 +2542,54 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Resident Evil: Welcome to Raccoon City'
   AND m.release_date = '2021-11-24'
   AND f.name = 'Resident Evil';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky'
+  AND m.release_date = '1976-12-03'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky Balboa'
+  AND m.release_date = '2006-12-20'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky II'
+  AND m.release_date = '1979-06-15'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky III'
+  AND m.release_date = '1982-05-28'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky IV'
+  AND m.release_date = '1985-11-27'
+  AND f.name = 'Rocky';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Rocky V'
+  AND m.release_date = '1990-11-16'
+  AND f.name = 'Rocky';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -2034,6 +3091,14 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'The Animatrix'
+  AND m.release_date = '2003-06-03'
+  AND f.name = 'The Matrix';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'The Batman'
   AND m.release_date = '2022-03-01'
   AND f.name = 'Batman';
@@ -2045,6 +3110,46 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'The Clone Wars'
   AND m.release_date = '2008-08-15'
   AND f.name = 'Star Wars';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Conjuring'
+  AND m.release_date = '2013-07-19'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Conjuring 2'
+  AND m.release_date = '2016-06-10'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Conjuring: Last Rites'
+  AND m.release_date = '2025-09-05'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Conjuring: The Devil Made Me Do It'
+  AND m.release_date = '2021-06-04'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Curse of the Mummy''s Tomb'
+  AND m.release_date = '1964-10-18'
+  AND f.name = 'The Mummy';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -2074,9 +3179,97 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'The Exorcist'
+  AND m.release_date = '1973-12-26'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Exorcist III'
+  AND m.release_date = '1990-08-17'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Exorcist: Believer'
+  AND m.release_date = '2023-10-06'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Exorcist: Martyrs'
+  AND m.release_date = '2027-03-12'
+  AND f.name = 'The Exorcist';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Fast and the Furious'
+  AND m.release_date = '2001-06-22'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Fast and the Furious: Tokyo Drift'
+  AND m.release_date = '2006-06-16'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Fate of the Furious'
+  AND m.release_date = '2017-04-14'
+  AND f.name = 'Fast and Furious';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'The Final Destination'
   AND m.release_date = '2009-08-28'
   AND f.name = 'Final Destination';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Great Muppet Caper'
+  AND m.release_date = '1981-06-26'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Hobbit: An Unexpected Journey'
+  AND m.release_date = '2012-12-14'
+  AND f.name = 'Tolkien''s Middle-Earth';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Hobbit: The Battle of the Five Armies'
+  AND m.release_date = '2014-12-17'
+  AND f.name = 'Tolkien''s Middle-Earth';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Hobbit: The Desolation of Smaug'
+  AND m.release_date = '2013-12-13'
+  AND f.name = 'Tolkien''s Middle-Earth';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -2157,6 +3350,230 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'The Mandalorian and Grogu'
   AND m.release_date = '2026-05-22'
   AND f.name = 'Star Wars';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Matrix'
+  AND m.release_date = '1999-03-31'
+  AND f.name = 'The Matrix';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Matrix Reloaded'
+  AND m.release_date = '2003-05-15'
+  AND f.name = 'The Matrix';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Matrix Resurrections'
+  AND m.release_date = '2021-12-22'
+  AND f.name = 'The Matrix';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Matrix Revolutions'
+  AND m.release_date = '2003-11-05'
+  AND f.name = 'The Matrix';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy'
+  AND m.release_date = '1932-12-22'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy'
+  AND m.release_date = '1932-12-22'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy'
+  AND m.release_date = '1959-09-25'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy'
+  AND m.release_date = '1999-05-07'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy'
+  AND m.release_date = '2017-06-09'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy Returns'
+  AND m.release_date = '2001-05-04'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Curse'
+  AND m.release_date = '1944-12-22'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Curse'
+  AND m.release_date = '1944-12-22'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Ghost'
+  AND m.release_date = '1944-07-07'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Ghost'
+  AND m.release_date = '1944-07-07'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Hand'
+  AND m.release_date = '1940-09-20'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Hand'
+  AND m.release_date = '1940-09-20'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Shroud'
+  AND m.release_date = '1967-03-15'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Tomb'
+  AND m.release_date = '1942-10-23'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy''s Tomb'
+  AND m.release_date = '1942-10-23'
+  AND f.name = 'Universal Classic Monsters';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy: Book of the Dead'
+  AND m.release_date = '2027-10-15'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Mummy: Tomb of the Dragon Emperor'
+  AND m.release_date = '2008-08-01'
+  AND f.name = 'The Mummy';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Muppet Christmas Carol'
+  AND m.release_date = '1992-12-11'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Muppet Movie'
+  AND m.release_date = '1979-05-31'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Muppets'
+  AND m.release_date = '2011-11-04'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Muppets Take Manhattan'
+  AND m.release_date = '1984-07-13'
+  AND f.name = 'The Muppets';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The New Mutants'
+  AND m.release_date = '2020-08-28'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Nun'
+  AND m.release_date = '2018-09-07'
+  AND f.name = 'The Warren Files';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'The Nun II'
+  AND m.release_date = '2023-09-08'
+  AND f.name = 'The Warren Files';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -2258,6 +3675,14 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'The Wolverine'
+  AND m.release_date = '2013-06-26'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'The World Is Not Enough'
   AND m.release_date = '1999-11-08'
   AND f.name = 'James Bond';
@@ -2277,6 +3702,46 @@ CROSS JOIN franchises AS f
 WHERE m.title = 'Tomorrow Never Dies'
   AND m.release_date = '1997-12-09'
   AND f.name = 'James Bond';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Toy Story'
+  AND m.release_date = '1995-11-22'
+  AND f.name = 'Toy Story';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Toy Story 2'
+  AND m.release_date = '1999-11-24'
+  AND f.name = 'Toy Story';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Toy Story 3'
+  AND m.release_date = '2010-06-18'
+  AND f.name = 'Toy Story';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Toy Story 4'
+  AND m.release_date = '2019-06-21'
+  AND f.name = 'Toy Story';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'Toy Story 5'
+  AND m.release_date = '2026-06-19'
+  AND f.name = 'Toy Story';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
@@ -2346,9 +3811,73 @@ INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
 FROM movies AS m
 CROSS JOIN franchises AS f
+WHERE m.title = 'Victor Crowley'
+  AND m.release_date = '2017-08-22'
+  AND f.name = 'Hatchet';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
 WHERE m.title = 'Wes Craven''s New Nightmare'
   AND m.release_date = '1994-10-14'
   AND f.name = 'A Nightmare on Elm Street';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men'
+  AND m.release_date = '2000-07-14'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men Origins: Wolverine'
+  AND m.release_date = '2009-05-01'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men: Apocalypse'
+  AND m.release_date = '2016-05-27'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men: Days of Future Past'
+  AND m.release_date = '2014-05-23'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men: First Class'
+  AND m.release_date = '2011-06-03'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X-Men: The Last Stand'
+  AND m.release_date = '2006-05-26'
+  AND f.name = 'X-Men';
+
+INSERT INTO movie_franchises (movie_id, franchise_id)
+SELECT m.id, f.id
+FROM movies AS m
+CROSS JOIN franchises AS f
+WHERE m.title = 'X2'
+  AND m.release_date = '2003-05-02'
+  AND f.name = 'X-Men';
 
 INSERT INTO movie_franchises (movie_id, franchise_id)
 SELECT m.id, f.id
