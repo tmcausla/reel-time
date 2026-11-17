@@ -2065,55 +2065,55 @@ const movieDb = [
     },
     {
         title: "The Mummy",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Terence Fisher",
         releaseDate: "1959-09-25"
     },
     {
         title: "The Curse of the Mummy's Tomb",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Michael Carreras",
         releaseDate: "1964-10-18"
     },
     {
         title: "The Mummy's Shroud",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "John Gilling",
         releaseDate: "1967-03-15"
     },
     {
         title: "Blood from the Mummy's Tomb",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Seth Holt & Michael Carreras",
         releaseDate: "1971-10-14"
     },
     {
         title: "The Mummy",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Stephen Sommers",
         releaseDate: "1999-05-07"
     },
     {
         title: "The Mummy Returns",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Stephen Sommers",
         releaseDate: "2001-05-04"
     },
     {
         title: "The Mummy: Tomb of the Dragon Emperor",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Rob Cohen",
         releaseDate: "2008-08-01"
     },
     {
         title: "The Mummy: Book of the Dead",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Matt Bettinelli-Olpin, Tyler Gillett",
         releaseDate: "2027-10-15"
     },
     {
         title: "The Mummy",
-        franchise: ["The Mummy"],
+        franchise: ["The Mummy", "Universal Classic Monsters"],
         director: "Alex Kurtzman",
         releaseDate: "2017-06-09"
     },
@@ -2389,7 +2389,7 @@ const movieDb = [
     },
     {
         title: "Deadpool & Wolverine",
-        franchise: ["X-Men"],
+        franchise: ["X-Men", "MCU"],
         director: "Shawn Levy",
         releaseDate: "2024-06-22"
     },
@@ -2458,6 +2458,858 @@ const movieDb = [
         franchise: ["Death Wish"],
         director: "Eli Roth",
         releaseDate: "2018-03-02"
+    },
+    {
+        title: "Godzilla",
+        franchise: ["Monarch Monsterverse", "Godzilla"],
+        director: "Gareth Edwards",
+        releaseDate: "2014-05-16"
+    },
+    {
+        title: "Kong: Skull Island",
+        franchise: ["Monarch Monsterverse", "King Kong"],
+        director: "Jordan Vogt-Roberts",
+        releaseDate: "2017-03-10"
+    },
+    {
+        title: "Godzilla: King of the Monsters",
+        franchise: ["Monarch Monsterverse", "Godzilla"],
+        director: "Michael Dougherty",
+        releaseDate: "2019-05-31"
+    },
+    {
+        title: "Godzilla vs King Kong",
+        franchise: ["Monarch Monsterverse", "Godzilla", "King Kong"],
+        director: "Adam Wingard",
+        releaseDate: "2021-03-31"
+    },
+    {
+        title: "Godzilla x Kong: The New Empire",
+        franchise: ["Monarch Monsterverse", "Godzilla", "King Kong"],
+        director: "Adam Wingard",
+        releaseDate: "2024-03-29"
+    },
+    {
+        title: "Godzilla x Kong: Supernova",
+        franchise: ["Monarch Monsterverse", "Godzilla", "King Kong"],
+        director: "Grant Sputore",
+        releaseDate: "2027-03-26"
+    },
+    {
+        title: "King Kong",
+        franchise: ["King Kong"],
+        director: "Merian C. Cooper & Ernest B. Schoedsack",
+        releaseDate: "1933-03-02"
+    },
+    {
+        title: "Son of Kong",
+        franchise: ["King Kong"],
+        director: "Ernest B. Schoedsack",
+        releaseDate: "1933-12-22"
+    },
+    {
+        title: "King Kong vs. Godzilla",
+        franchise: ["King Kong", "Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1962-08-11"
+    },
+    {
+        title: "King Kong Escapes",
+        franchise: ["King Kong"],
+        director: "Ishiro Honda",
+        releaseDate: "1967-07-22"
+    },
+    {
+        title: "King Kong",
+        franchise: ["King Kong"],
+        director: "John Guillermin",
+        releaseDate: "1976-12-17"
+    },
+    {
+        title: "King Kong Lives",
+        franchise: ["King Kong"],
+        director: "John Guillermin",
+        releaseDate: "1986-12-19"
+    },
+    {
+        title: "King Kong",
+        franchise: ["King Kong"],
+        director: "Peter Jackson",
+        releaseDate: "2005-12-14"
+    },
+    {
+        title: "Godzilla",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1954-10-27"
+    },
+    {
+        title: "Godzilla Raids Again",
+        franchise: ["Godzilla"],
+        director: "Motoyoshi Oda",
+        releaseDate: "1955-04-24"
+    },
+    {
+        title: "Mothra vs. Godzilla",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1964-04-29"
+    },
+    {
+        title: "Ghidorah, the Three-Headed Monster",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1964-12-20"
+    },
+    {
+        title: "Invasion of Astro-Monster",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1965-12-19"
+    },
+    {
+        title: "Ebirah, Horror of the Deep",
+        franchise: ["Godzilla"],
+        director: "Jun Fukuda",
+        releaseDate: "1966-12-17"
+    },
+    {
+        title: "Son of Godzilla",
+        franchise: ["Godzilla"],
+        director: "Jun Fukuda",
+        releaseDate: "1967-12-16"
+    },
+    {
+        title: "Destroy All Monsters",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1968-08-01"
+    },
+    {
+        title: "All Monsters Attack",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1969-12-20"
+    },
+    {
+        title: "Godzilla vs. Hedorah",
+        franchise: ["Godzilla"],
+        director: "Yoshimitsu Banno",
+        releaseDate: "1971-07-24"
+    },
+    {
+        title: "Godzilla vs. Gigan",
+        franchise: ["Godzilla"],
+        director: "Jun Fukuda",
+        releaseDate: "1972-03-12"
+    },
+    {
+        title: "Godzilla vs. Megalon",
+        franchise: ["Godzilla"],
+        director: "Jun Fukuda",
+        releaseDate: "1973-03-17"
+    },
+    {
+        title: "Godzilla vs. Mechagodzilla",
+        franchise: ["Godzilla"],
+        director: "Jun Fukuda",
+        releaseDate: "1974-03-21"
+    },
+    {
+        title: "Terror of Mechagodzilla",
+        franchise: ["Godzilla"],
+        director: "Ishiro Honda",
+        releaseDate: "1975-03-15"
+    },
+    {
+        title: "The Return of Godzilla",
+        franchise: ["Godzilla"],
+        director: "Koji Hashimoto",
+        releaseDate: "1984-12-15"
+    },
+    {
+        title: "Godzilla vs. Biollante",
+        franchise: ["Godzilla"],
+        director: "Kazuki Omori",
+        releaseDate: "1989-12-16"
+    },
+    {
+        title: "Godzilla vs. King Ghidorah",
+        franchise: ["Godzilla"],
+        director: "Kazuki Omori",
+        releaseDate: "1991-12-14"
+    },
+    {
+        title: "Godzilla vs. Mothra",
+        franchise: ["Godzilla"],
+        director: "Takao Okawara",
+        releaseDate: "1992-12-12"
+    },
+    {
+        title: "Godzilla vs. Mechagodzilla II",
+        franchise: ["Godzilla"],
+        director: "Takao Okawara",
+        releaseDate: "1993-12-11"
+    },
+    {
+        title: "Godzilla vs. SpaceGodzilla",
+        franchise: ["Godzilla"],
+        director: "Kensho Yamashita",
+        releaseDate: "1994-12-10"
+    },
+    {
+        title: "Godzilla vs. Destoroyah",
+        franchise: ["Godzilla"],
+        director: "Takao Okawara",
+        releaseDate: "1995-12-09"
+    },
+    {
+        title: "Godzilla 2000: Millenium",
+        franchise: ["Godzilla"],
+        director: "Takao Okawara",
+        releaseDate: "1999-11-06"
+    },
+    {
+        title: "Godzilla vs. Megaguirus",
+        franchise: ["Godzilla"],
+        director: "Masaaki Tezuka",
+        releaseDate: "2000-11-03"
+    },
+    {
+        title: "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack",
+        franchise: ["Godzilla"],
+        director: "Shusuke Kaneko",
+        releaseDate: "2001-11-03"
+    },
+    {
+        title: "Godzilla Against Mechagodzilla",
+        franchise: ["Godzilla"],
+        director: "Masaaki Tezuka",
+        releaseDate: "2002-12-14"
+    },
+    {
+        title: "Godzilla: Tokyo S.O.S.",
+        franchise: ["Godzilla"],
+        director: "Masaaki Tezuka",
+        releaseDate: "2003-12-13"
+    },
+    {
+        title: "Godzilla: Final Wars",
+        franchise: ["Godzilla"],
+        director: "Ryuhei Kitamura",
+        releaseDate: "2004-11-29"
+    },
+    {
+        title: "Shin Godzilla",
+        franchise: ["Godzilla"],
+        director: "Hideaki Anno & Shinji Higuchi",
+        releaseDate: "2016-07-25"
+    },
+    {
+        title: "Godzilla: Planet of the Monsters",
+        franchise: ["Godzilla"],
+        director: "Kobun Shizuno & Hiroyuki Seshita",
+        releaseDate: "2017-11-17"
+    },
+    {
+        title: "Godzilla: City on the Edge of Battle",
+        franchise: ["Godzilla"],
+        director: "Kobun Shizuno & Hiroyuki Seshita",
+        releaseDate: "2018-05-18"
+    },
+    {
+        title: "Godzilla: The Planet Eater",
+        franchise: ["Godzilla"],
+        director: "Kobun Shizuno & Hiroyuki Seshita",
+        releaseDate: "2018-11-03"
+    },
+    {
+        title: "Godzilla Minus One",
+        franchise: ["Godzilla"],
+        director: "Takashi Yamazaki",
+        releaseDate: "2023-10-18"
+    },
+    {
+        title: "Godzilla Minus Zero",
+        franchise: ["Godzilla"],
+        director: "Takashi Yamazaki",
+        releaseDate: "2026-09-26"
+    },
+    {
+        title: "Godzilla",
+        franchise: ["Godzilla"],
+        director: "Roland Emmerich",
+        releaseDate: "1998-05-18"
+    },
+    {
+        title: "Dr. Jekyll and Mr. Hyde",
+        franchise: ["Universal Classic Monsters"],
+        director: "Herbert Brenon",
+        releaseDate: "1913-03-06"
+    },
+    {
+        title: "The Hunchback of Notre Dame",
+        franchise: ["Universal Classic Monsters"],
+        director: "Wallace Worsley",
+        releaseDate: "1923-09-02"
+    },
+    {
+        title: "The Phantom of the Opera",
+        franchise: ["Universal Classic Monsters"],
+        director: "Rupert Julian",
+        releaseDate: "1925-09-06"
+    },
+    {
+        title: "Dracula",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Tod Browning",
+        releaseDate: "1931-02-14"
+    },
+    {
+        title: "Dracula",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "George Melford",
+        releaseDate: "1931-04-24"
+    },
+    {
+        title: "Frankenstein",
+        franchise: ["Universal Classic Monsters", "Frankenstein"],
+        director: "James Whale",
+        releaseDate: "1931-11-21"
+    },
+    {
+        title: "The Invisible Man",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "James Whale",
+        releaseDate: "1933-11-13"
+    },
+    {
+        title: "Bride of Frankenstein",
+        franchise: ["Universal Classic Monsters", "Frankenstein"],
+        director: "James Whale",
+        releaseDate: "1935-04-22"
+    },
+    {
+        title: "Werewolf of London",
+        franchise: ["Universal Classic Monsters", "Wolf Man"],
+        director: "Stuart Walker",
+        releaseDate: "1935-05-13"
+    },
+    {
+        title: "Dracula's Daughter",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Lambert Hillyer",
+        releaseDate: "1936-05-11"
+    },
+    {
+        title: "Son of Frankenstein",
+        franchise: ["Universal Classic Monsters", "Frankenstein"],
+        director: "Rowland V. Lee",
+        releaseDate: "1939-01-13"
+    },
+    {
+        title: "The Invisible Man Returns",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "Joe May",
+        releaseDate: "1940-01-12"
+    },
+    {
+        title: "The Invisible Woman",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "A. Edward Sutherland",
+        releaseDate: "1940-12-27"
+    },
+    {
+        title: "The Wolf Man",
+        franchise: ["Universal Classic Monsters", "Wolf Man"],
+        director: "George Waggner",
+        releaseDate: "1941-12-12"
+    },
+    {
+        title: "The Ghost of Frankenstein",
+        franchise: ["Universal Classic Monsters", "Frankenstein"],
+        director: "Erle C. Kenton",
+        releaseDate: "1942-03-06"
+    },
+    {
+        title: "Invisible Agent",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "Edwin L. Marin",
+        releaseDate: "1942-07-31"
+    },
+    {
+        title: "Frankenstein Meets the Wolf Man",
+        franchise: ["Universal Classic Monsters", "Frankenstein", "Wolf Man"],
+        director: "Roy William Neill",
+        releaseDate: "1943-03-05"
+    },
+    {
+        title: "Phantom of the Opera",
+        franchise: ["Universal Classic Monsters"],
+        director: "Arthur Lubin",
+        releaseDate: "1943-08-12"
+    },
+    {
+        title: "Son of Dracula",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Robert Siodmak",
+        releaseDate: "1943-11-05"
+    },
+    {
+        title: "The Invisible Man's Revenge",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "Ford Beebe",
+        releaseDate: "1944-06-09"
+    },
+    {
+        title: "House of Frankenstein",
+        franchise: ["Universal Classic Monsters", "Frankenstein"],
+        director: "Erle C. Kenton",
+        releaseDate: "1944-12-15"
+    },
+    {
+        title: "House of Dracula",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Erle C. Kenton",
+        releaseDate: "1945-12-07"
+    },
+    {
+        title: "She-Wolf of London",
+        franchise: ["Universal Classic Monsters", "Wolf Man"],
+        director: "Jean Yarbrough",
+        releaseDate: "1946-04-05"
+    },
+    {
+        title: "Abbott and Costello Meet Frankenstein",
+        franchise: ["Universal Classic Monsters", "Wolf Man", "Frankenstein", "Dracula"],
+        director: "Charles T. Barton",
+        releaseDate: "1948-06-15"
+    },
+    {
+        title: "Abbott and Costello Meet the Invisible Man",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "Charles Lamont",
+        releaseDate: "1951-04-03"
+    },
+    {
+        title: "Abbott and Costello Meet Dr. Jekyll and Mr. Hyde",
+        franchise: ["Universal Classic Monsters"],
+        director: "Charles Lamont",
+        releaseDate: "1953-08-12"
+    },
+    {
+        title: "Creature from the Black Lagoon",
+        franchise: ["Universal Classic Monsters"],
+        director: "Jack Arnold",
+        releaseDate: "1954-02-12"
+    },
+    {
+        title: "Revenge of the Creature",
+        franchise: ["Universal Classic Monsters"],
+        director: "Jack Arnold",
+        releaseDate: "1955-03-29"
+    },
+    {
+        title: "The Creature Walks Among Us",
+        franchise: ["Universal Classic Monsters"],
+        director: "John Sherwood",
+        releaseDate: "1956-04-26"
+    },
+    {
+        title: "Bram Stoker's Dracula",
+        franchise: ["Dracula"],
+        director: "Francis Ford Coppola",
+        releaseDate: "1992-11-13"
+    },
+    {
+        title: "Dracula",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "John Badham",
+        releaseDate: "1979-07-13"
+    },
+    {
+        title: "Van Helsing",
+        franchise: ["Universal Classic Monsters", "Dracula", "Frankenstein", "Wolf Man"],
+        director: "Stephen Sommers",
+        releaseDate: "2004-05-07"
+    },
+    {
+        title: "The Wolfman",
+        franchise: ["Universal Classic Monsters", "Wolf Man"],
+        director: "Joe Johnston",
+        releaseDate: "2010-02-12"
+    },
+    {
+        title: "Dracula Untold",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Gary Shore",
+        releaseDate: "2014-10-10"
+    },
+    {
+        title: "The Invisible Man",
+        franchise: ["Universal Classic Monsters", "The Invisible Man"],
+        director: "Leigh Whannell",
+        releaseDate: "2020-02-28"
+    },
+    {
+        title: "Hollow Man",
+        franchise: ["The Invisible Man"],
+        director: "Paul Verhoeven",
+        releaseDate: "2000-08-04"
+    },
+    {
+        title: "Renfield",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Chris McKay",
+        releaseDate: "2023-04-14"
+    },
+    {
+        title: "The Last Voyage of the Demeter",
+        franchise: ["Universal Classic Monsters", "Dracula"],
+        director: "Andre Ovredal",
+        releaseDate: "2023-08-11"
+    },
+    {
+        title: "Wolf Man",
+        franchise: ["Universal Classic Monsters", "Wolf Man"],
+        director: "Leigh Whannell",
+        releaseDate: "2025-01-17"
+    },
+    {
+        title: "Leprechaun",
+        franchise: ["Leprechaun"],
+        director: "Mark Jones",
+        releaseDate: "1993-01-08"
+    },
+    {
+        title: "Leprechaun 2",
+        franchise: ["Leprechaun"],
+        director: "Rodman Flender",
+        releaseDate: "1994-04-08"
+    },
+    {
+        title: "Leprechaun 3",
+        franchise: ["Leprechaun"],
+        director: "Brian Trenchard-Smith",
+        releaseDate: "1995-06-27"
+    },
+    {
+        title: "Leprechaun 4: In Space",
+        franchise: ["Leprechaun"],
+        director: "Brian Trenchard-Smith",
+        releaseDate: "1997-02-25"
+    },
+    {
+        title: "Leprechaun in the Hood",
+        franchise: ["Leprechaun"],
+        director: "Rob Spera",
+        releaseDate: "2000-03-28"
+    },
+    {
+        title: "Leprechaun: Back 2 tha Hood",
+        franchise: ["Leprechaun"],
+        director: "Steven Ayromlooi",
+        releaseDate: "2003-12-30"
+    },
+    {
+        title: "Leprechaun: Origins",
+        franchise: ["Leprechaun"],
+        director: "Zach Lipovsky",
+        releaseDate: "2014-08-22"
+    },
+    {
+        title: "Leprechaun Returns",
+        franchise: ["Leprechaun"],
+        director: "Steven Kostanski",
+        releaseDate: "2018-12-11"
+    },
+    {
+        title: "Critters",
+        franchise: ["Critters"],
+        director: "Stephen Herek",
+        releaseDate: "1986-04-11"
+    },
+    {
+        title: "Critters 2: The Main Course",
+        franchise: ["Critters"],
+        director: "Mick Garris",
+        releaseDate: "1988-04-29"
+    },
+    {
+        title: "Critters 3",
+        franchise: ["Critters"],
+        director: "Kristine Peterson",
+        releaseDate: "1991-12-11"
+    },
+    {
+        title: "Critters 4",
+        franchise: ["Critters"],
+        director: "Rupert Harvey",
+        releaseDate: "1992-10-14"
+    },
+    {
+        title: "Critters Attack!",
+        franchise: ["Critters"],
+        director: "Bobby Miller",
+        releaseDate: "2019-07-23"
+    },
+    {
+        title: "The Amityville Horror",
+        franchise: ["The Amityville Horror"],
+        director: "Stuart Rosenberg",
+        releaseDate: "1979-07-27"
+    },
+    {
+        title: "Amityville II: The Possession",
+        franchise: ["The Amityville Horror"],
+        director: "Damiano Damiani",
+        releaseDate: "1982-09-24"
+    },
+    {
+        title: "Amityville 3-D",
+        franchise: ["The Amityville Horror"],
+        director: "Richard Fleischer",
+        releaseDate: "1983-11-18"
+    },
+    {
+        title: "Amityville 4: The Evil Escapes",
+        franchise: ["The Amityville Horror"],
+        director: "Sandor Stern",
+        releaseDate: "1989-05-12"
+    },
+    {
+        title: "The Amityville Curse",
+        franchise: ["The Amityville Horror"],
+        director: "Tom Berry",
+        releaseDate: "1990-05-07"
+    },
+    {
+        title: "Amityville 1992: It's About Time",
+        franchise: ["The Amityville Horror"],
+        director: "Tony Randel",
+        releaseDate: "1992-07-16"
+    },
+    {
+        title: "Amityville: A New Generation",
+        franchise: ["The Amityville Horror"],
+        director: "John Murlowski",
+        releaseDate: "1993-09-29"
+    },
+    {
+        title: "Amityville Dollhouse",
+        franchise: ["The Amityville Horror"],
+        director: "Steve White",
+        releaseDate: "1997-02-18"
+    },
+    {
+        title: "The Amityville Horror",
+        franchise: ["The Amityville Horror"],
+        director: "Andrew Douglas",
+        releaseDate: "2005-04-15"
+    },
+    {
+        title: "Amityville: The Awakening",
+        franchise: ["The Amityville Horror"],
+        director: "Franck Khalfoun",
+        releaseDate: "2017-10-28"
+    },
+    {
+        title: "Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Franklin J. Schaffner",
+        releaseDate: "1968-04-03"
+    },
+    {
+        title: "Beneath the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Ted Post",
+        releaseDate: "1970-05-27"
+    },
+    {
+        title: "Escape from the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Don Taylor",
+        releaseDate: "1971-05-21"
+    },
+    {
+        title: "Conquest of the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "J. Lee Thompson",
+        releaseDate: "1972-06-29"
+    },
+    {
+        title: "Battle for the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "J. Lee Thompson",
+        releaseDate: "1973-06-15"
+    },
+    {
+        title: "Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Tim Burton",
+        releaseDate: "2001-07-27"
+    },
+    {
+        title: "Rise of the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Rupert Wyatt",
+        releaseDate: "2011-08-05"
+    },
+    {
+        title: "Dawn of the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Matt Reeves",
+        releaseDate: "2014-07-11"
+    },
+    {
+        title: "War for the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Matt Reeves",
+        releaseDate: "2017-07-14"
+    },
+    {
+        title: "Kingdom of the Planet of the Apes",
+        franchise: ["Planet of the Apes"],
+        director: "Wes Ball",
+        releaseDate: "2024-05-10"
+    },
+    {
+        title: "The Purge",
+        franchise: ["The Purge"],
+        director: "James DeMonaco",
+        releaseDate: "2013-06-07"
+    },
+    {
+        title: "The Purge: Anarchy",
+        franchise: ["The Purge"],
+        director: "James DeMonaco",
+        releaseDate: "2014-07-18"
+    },
+    {
+        title: "The Purge: Election Year",
+        franchise: ["The Purge"],
+        director: "James DeMonaco",
+        releaseDate: "2016-07-01"
+    },
+    {
+        title: "The First Purge",
+        franchise: ["The Purge"],
+        director: "Gerard McMurray",
+        releaseDate: "2018-07-04"
+    },
+    {
+        title: "The Forever Purge",
+        franchise: ["The Purge"],
+        director: "Everardo Gout",
+        releaseDate: "2021-07-02"
+    },
+    {
+        title: "Mad Max",
+        franchise: ["Mad Max"],
+        director: "George Miller",
+        releaseDate: "1979-04-12"
+    },
+    {
+        title: "Mad Max 2",
+        franchise: ["Mad Max"],
+        director: "George Miller",
+        releaseDate: "1981-12-24"
+    },
+    {
+        title: "Mad Max Beyond Thunderdome",
+        franchise: ["Mad Max"],
+        director: "George Miller & George Ogilvie",
+        releaseDate: "1985-07-10"
+    },
+    {
+        title: "Mad Max: Fury Road",
+        franchise: ["Mad Max"],
+        director: "George Miller",
+        releaseDate: "2015-05-15"
+    },
+    {
+        title: "Furiosa: A Mad Max Saga",
+        franchise: ["Mad Max"],
+        director: "George Miller",
+        releaseDate: "2024-05-24"
+    },
+    {
+        title: "Police Academy",
+        franchise: ["Police Academy"],
+        director: "Hugh Wilson",
+        releaseDate: "1984-03-23"
+    },
+    {
+        title: "Police Academy 2: Their First Assignment",
+        franchise: ["Police Academy"],
+        director: "Jerry Paris",
+        releaseDate: "1985-03-29"
+    },
+    {
+        title: "Police Academy 3: Back in Training",
+        franchise: ["Police Academy"],
+        director: "Jerry Paris",
+        releaseDate: "1986-03-21"
+    },
+    {
+        title: "Police Academy 4: Citizens on Patrol",
+        franchise: ["Police Academy"],
+        director: "Jim Drake",
+        releaseDate: "1987-04-03"
+    },
+    {
+        title: "Police Academy 5: Assignment Miami Beach",
+        franchise: ["Police Academy"],
+        director: "Alan Myerson",
+        releaseDate: "1988-03-18"
+    },
+    {
+        title: "Police Academy 6: City Under Siege",
+        franchise: ["Police Academy"],
+        director: "Peter Bonerz",
+        releaseDate: "1989-03-10"
+    },
+    {
+        title: "Police Academy: Mission to Moscow",
+        franchise: ["Police Academy"],
+        director: "Alan Metter",
+        releaseDate: "1994-08-26"
+    },
+    {
+        title: "Sharknado",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2013-07-11"
+    },
+    {
+        title: "Sharknado 2: The Second One",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2014-07-30"
+    },
+    {
+        title: "Sharknado 3: Oh Hell No!",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2015-07-22"
+    },
+    {
+        title: "Sharknado: The 4th Awakens",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2016-07-31"
+    },
+    {
+        title: "Sharknado 5: Global Swarming",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2017-08-06"
+    },
+    {
+        title: "The Last Sharknado: It's About Time",
+        franchise: ["Sharknado"],
+        director: "Anthony C. Ferrante",
+        releaseDate: "2018-08-19"
     }
 ];
 
